@@ -1,3 +1,44 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/FormularLight/formular-light.css);
 @import url(../vendor/NeueMachinaRegular/neue-machina-regular.css);
+
+.page {
+  background-color: #ECEBE8;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid red;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px 0 30px;
+  border: 1px solid red;
+}
+
+.header__logo {
+  border: 1px solid red;
+}
+
+.header__nav {
+  border: 1px solid red;
+}
+
+.header__items {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.header__item {
+  margin: 0;
+  padding: 0;
+}
+
+.header__link {
+  text-decoration: none;
+  color: black;
+}

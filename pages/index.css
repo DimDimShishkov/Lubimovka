@@ -24,6 +24,7 @@
 
 .header__nav {
   border: 1px solid red;
+  padding: 0 39px 0 43px;
 }
 
 .header__items {
@@ -36,6 +37,7 @@
 .header__item {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .header__link {

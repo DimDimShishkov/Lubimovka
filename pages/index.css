@@ -3,44 +3,71 @@
 @import url(../vendor/NeueMachinaRegular/neue-machina-regular.css);
 
 .page {
-  background-color: #ECEBE8;
+  background-color: #ecebe8;
   max-width: 1440px;
+  min-width: 414px;
   margin: 0 auto;
   padding: 0;
-  border: 1px solid red;
 }
 
-.header {
+.photos {
+  padding: 144px 0 0;
+  margin: 0;
+}
+
+.photos__description {
+  white-space: pre;
+  font-family: "Neue Machina";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  margin: 0 0 40px 362px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .photos__description {
+    margin: 0 0 40px 25vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .photos__description {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .photos__description {
+    margin: 0 0 22px 24px;
+    white-space: normal;
+    max-width: 350px;
+  }
+}
+
+.photos__grid {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+  gap: 1px;
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  padding: 0 20px 0 30px;
-  border: 1px solid red;
+  box-sizing: border-box;
 }
 
-.header__logo {
-  border: 1px solid red;
+@media screen and (max-width: 800px) {
+  .photos__grid {
+    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+    gap: 2px 3px;
+  }
 }
 
-.header__nav {
-  border: 1px solid red;
-  padding: 0 39px 0 43px;
+.photos__item {
+  width: 100%;
 }
 
-.header__items {
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  padding: 0;
-}
 
-.header__item {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.header__link {
-  text-decoration: none;
-  color: black;
-}

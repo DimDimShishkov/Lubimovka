@@ -307,6 +307,88 @@
   }
 }
 
+
+/* Блок 1-2*/
+
+.play {
+  margin-left: 120px;
+  margin-top: 30px;
+
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  /*grid-template-columns: repeat(auto-fit, minmax(1fr, 720px));*/
+  grid-row-gap: 48px;
+  grid-column-gap: 60px;
+
+}
+
+.about-play {
+  max-width: 591px;
+}
+
+.play__description {
+  grid-row: 2;
+  grid-column: 2;
+  max-width: 591px;
+  font-family: "Neue Machina", Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  justify-self: start;
+}
+
+.about-play__title {
+  margin: 0;
+  top: 0;
+  max-width: 540px;
+  font-family: "Neue Machina", Arial, sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+}
+
+.about-play__subtitle {
+  max-width: 380px;
+  margin: 37px 0 0 50px;
+  padding: 0;
+  font-family: "Neue Machina", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about-play__time {
+  max-width: 420px;
+  margin: 212px 0 0 0;
+  padding: 0;
+  font-family: "Neue Machina", Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.play__image {
+  object-fit: cover;
+  width: 100%;
+  max-height: 614px;
+}
+
+.order-btn {
+  width: 240px;
+  height: 56px;
+  outline: none;
+  border: 1px solid #000000;
+  margin-top: 16px;
+  font-family: "FormularLight", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 16px 18px 16px;
+  background-color: #ECEBE8;
+  cursor: pointer;
+}
+
+
 .photos {
   padding: 144px 0 0;
   margin: 0;

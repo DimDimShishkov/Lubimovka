@@ -38,6 +38,52 @@
   overflow-y: hidden;
 }
 
+.link-button {
+  font-family: "Formular";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: right;
+  color: #242424;
+  text-transform: uppercase;
+  padding: 2px 0 3px 10px;
+  margin: 0;
+  margin-left: 30px;
+  margin-top: 33px;
+  border: none;
+  border-right: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ecebe8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+  .projects-button {
+    margin-top: 31px;
+    position: absolute;
+    top: 0;
+    left: 56px;
+  }
+}
+
+.button-arrow_left {
+  padding: 0;
+  margin: 0;
+  margin-left: 5px;
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (max-width: 950px) {
+  .button-arrow_left {
+    margin-left: 0px;
+  }
+}
+
 /* Блок 1-2*/
 
 .play {

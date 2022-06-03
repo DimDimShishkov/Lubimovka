@@ -1,0 +1,25 @@
+.header__item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 44px;
+  font-family: "Formular";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #242424;
+}
+
+.header__item:first-of-type {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 950px) {
+  .header__item {
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 20px;
+    line-height: 22px;
+  }
+}

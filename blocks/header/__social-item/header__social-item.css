@@ -1,0 +1,26 @@
+.header__social-item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 16px;
+  font-family: "Formular";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: lowercase;
+  color: #242424;
+}
+
+.header__social-item:first-child {
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 950px) {
+  .header__social-item {
+    margin: 10px 0 10px;
+    padding: 0;
+    font-size: 20px;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,13 @@
+.header__menu_selected {
+  background: none;
+}
+
+.header__menu_selected:before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.header__menu_selected:after {
+  top: 0;
+  transform: rotate(-45deg);
+}

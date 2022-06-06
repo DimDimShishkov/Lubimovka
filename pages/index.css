@@ -78,6 +78,9 @@
   display: flex;
   flex-direction: column;
   margin-left: 720px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #B7C09D;
 }
 
 @media screen and (max-width: 800px) {
@@ -99,7 +102,6 @@
 }
 
 .readings__play {
-  border-bottom: 1px solid #242424;
   background-color: #B7C09D;
   height: 187px;
   font-family: "Neue Machina";
@@ -108,12 +110,27 @@
   line-height: 1.2;
   letter-spacing: -1%;
   padding: 24px 0 0 24px;
+  box-sizing: border-box;
 }
 
+.readings__play:hover {
+  cursor: pointer;
+}
+/*
+.readings__play:hover ~ .readings__watch {
+  opacity: 1;
+  transition:0s;
+}
+
+.readings__play:hover ~ .readings__download {
+  opacity: 1;
+}
+*/
 .readings__watch {
-  border-bottom: 1px solid #242424;
+  height: 56px;
+  box-sizing: border-box;
+  border-top: 1px solid #242424;
   padding-left: 16px;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #B7C09D;
@@ -122,11 +139,27 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 1.37;
+  display: flex;
+  position: absolute;
+  top: 187px;
+  left: 0;
+  right: 0;
+  opacity:0;
+  transition: all .5s ease-out;
 }
+
+.readings__watch_visible {
+  opacity: 1;
+  transition: all .5s ease-in;
+}
+
 
 .readings__download {
+  height: 56px;
+  box-sizing: border-box;
+  border-top: 1px solid #242424;
+  border-bottom: 1px solid #242424;
   padding-left: 16px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #B7C09D;
@@ -135,6 +168,18 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 1.37;
+  display: flex;
+  position: absolute;
+  top: 243px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: all .5s ease-out;
+}
+
+.readings__download_visible {
+  opacity: 1;
+  transition: all .5s ease-in;
 }
 
 .readings__watch:hover {
@@ -143,22 +188,54 @@
   cursor: pointer;
 }
 
+.readings__watch:hover > .readings__watch-link {
+  filter: invert(1);
+}
+
 .readings__download:hover {
   background-color: #242424;
   color: #fff;
   cursor: pointer;
 }
 
+.readings__download:hover > .readings__download-link {
+  filter: invert(1);
+}
+
+.readings__name-container {
+  display: block;
+  flex-direction: column;
+  padding-top: 17px;
+  background-color: #ecebe8;
+  position: absolute;
+  height: 48px;
+  bottom: 48px;
+  left: 0;
+  right: 0;
+}
+
+
 .readings__name {
+  display: inline;
   padding: 0;
   margin: 0;
-  white-space: pre;
+  white-space: pre-wrap;
+  line-height: 1.2;
   font-family: "Neue Machina";
   font-weight: 400;
   font-size: 20px;
-  line-height: 1.2;
   letter-spacing: -1%;
-  padding-top: 17px;
+}
+
+.readings__name-container:hover {
+  cursor: pointer;
+}
+
+
+.readings__name-container:hover > .readings__name {
+  background-color: #242424;
+  color: #fff;
+  cursor: pointer;
 }
 
 .readings__city-year {
@@ -171,6 +248,12 @@
   line-height: 1.37;
   letter-spacing: -1%;
   padding-top: 4px;
+  background-color: #ecebe8;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 44px;
 }
 
 
@@ -180,15 +263,12 @@
   width: 25px;
   height: 25px;
   background-image: url(../images/arrow-45.svg);
+  transition: filter .5s ease-out;
 }
 
-.readings__watch-link:hover {
-  filter: invert(1);
-}
 
-.readings__download-link:hover {
-  filter: invert(1);
-}
+
+
 
 
 .readings__download-link {
@@ -197,4 +277,5 @@
   width: 25px;
   height: 25px;
   background-image: url(../images/arrow-down.svg);
+  transition: filter .5s ease-out;
 }

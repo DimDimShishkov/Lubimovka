@@ -72,27 +72,40 @@
 
 
 /* Блок 4 */
+.readings {
+  margin-top: 80px;
+  margin-left: 720px;
+}
+
+@media screen and (max-width: 800px) {
+  .readings {
+    margin: 100px 85px 0 85px;
+    outline: none;
+  }
+}
+
 .readings__container {
   width: 240px;
   height: 412px;
   display: flex;
   flex-direction: column;
-  margin-left: 720px;
-  position: relative;
   box-sizing: border-box;
   background-color: #B7C09D;
+  outline: none;
 }
 
 @media screen and (max-width: 800px) {
   .readings__container {
+    margin-top: 32px;
     width: 244px;
-    height: 341px;
+    height: 441px;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .readings__container::before {
+  .readings::before {
     content: "Почитать пьесу";
+    display: block;
     font-family: 'Neue Machina';
     font-size: 28px;
     font-weight: normal;
@@ -116,16 +129,13 @@
 .readings__play:hover {
   cursor: pointer;
 }
-/*
-.readings__play:hover ~ .readings__watch {
-  opacity: 1;
-  transition:0s;
+
+@media screen and (max-width: 800px) {
+  .readings__play {
+    height: 230px;
+  }
 }
 
-.readings__play:hover ~ .readings__download {
-  opacity: 1;
-}
-*/
 .readings__watch {
   height: 56px;
   box-sizing: border-box;
@@ -140,10 +150,6 @@
   font-size: 16px;
   line-height: 1.37;
   display: flex;
-  position: absolute;
-  top: 187px;
-  left: 0;
-  right: 0;
   opacity:0;
   transition: all .5s ease-out;
 }
@@ -152,7 +158,6 @@
   opacity: 1;
   transition: all .5s ease-in;
 }
-
 
 .readings__download {
   height: 56px;
@@ -169,10 +174,6 @@
   font-size: 16px;
   line-height: 1.37;
   display: flex;
-  position: absolute;
-  top: 243px;
-  left: 0;
-  right: 0;
   opacity: 0;
   transition: all .5s ease-out;
 }
@@ -207,13 +208,14 @@
   flex-direction: column;
   padding-top: 17px;
   background-color: #ecebe8;
-  position: absolute;
-  height: 48px;
-  bottom: 48px;
-  left: 0;
-  right: 0;
+  outline: none;
 }
 
+@media screen and (max-width: 800px) {
+  .readings__name-container {
+    padding-top: 24px;
+  }
+}
 
 .readings__name {
   display: inline;
@@ -227,15 +229,21 @@
   letter-spacing: -1%;
 }
 
+@media screen and (max-width: 800px) {
+  .readings__name {
+    white-space: initial;
+  }
+}
+
 .readings__name-container:hover {
   cursor: pointer;
 }
-
 
 .readings__name-container:hover > .readings__name {
   background-color: #242424;
   color: #fff;
   cursor: pointer;
+  transition: all .4s linear;
 }
 
 .readings__city-year {
@@ -249,13 +257,7 @@
   letter-spacing: -1%;
   padding-top: 4px;
   background-color: #ecebe8;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 44px;
 }
-
 
 .readings__watch-link {
   display: block;
@@ -265,11 +267,6 @@
   background-image: url(../images/arrow-45.svg);
   transition: filter .5s ease-out;
 }
-
-
-
-
-
 
 .readings__download-link {
   display: block;

@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/index.css" />
-    <title>Лендинг для фестиваля “Любимовка”</title>
-  </head>
-  <body class="page">
 
-    <header class="header">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./pages/index.css" />
+  <title>Лендинг для фестиваля “Любимовка”</title>
+</head>
 
-      <img src="./images/Group.svg" alt="logo" class="header__logo" />
-      <div class="header__container">
+<body class="page">
+
+  <header class="header">
+
+    <img src="./images/Group.svg" alt="logo" class="header__logo" />
+    <div class="header__container">
       <nav class="header__nav">
         <ul class="header__items header__items-navigation">
           <li class="header__item">
@@ -61,61 +63,77 @@
       </nav>
     </div>
 
-      <button class="header__mobile">
-        <span class="header__menu"></span>
-      </button>
+    <button class="header__mobile">
+      <span class="header__menu"></span>
+    </button>
 
-    </header>
+  </header>
 
-    <main class="main">
+  <main class="main">
 
-      <button type="button" class="link-button projects-button">
-        Проекты
-        <img src="./images/arrow-left.svg" alt="вернуться к проектам" class="button-arrow_left">
-      </button>
+    <button type="button" class="link-button projects-button">
+      Проекты
+      <img src="./images/arrow-left.svg" alt="вернуться к проектам" class="button-arrow_left">
+    </button>
 
-      <section class="play">
-        <div class="about-play">
-          <h1 class="about-play__title">С_училища</h1>
-          <p class="about-play__subtitle">Пьеса о демоническом обаянии студентки ПТУ и ее роковой роли в жизни
-            преподавателя
-            философии.</p>
-          <p class="about-play__time">12 мая 20:00</p>
-          <button class="order-btn">билеты
-            <a href="#">
-              <img src="./images/arrow-right.svg" alt="Переход по ссылке">
-            </a>
-          </button>
+    <section class="play hidden">
+      <div class="about-play">
+        <h1 class="about-play__title">С_училища</h1>
+        <p class="about-play__subtitle">Пьеса о демоническом обаянии студентки ПТУ и ее роковой роли в жизни
+          преподавателя
+          философии.</p>
+        <p class="about-play__time">12 мая 20:00</p>
+        <button class="order-btn">билеты
+          <a href="#">
+            <img src="./images/arrow-right.svg" alt="Переход по ссылке">
+          </a>
+        </button>
 
+      </div>
+      <img src="./images/about-play-img.jpg" alt="Обложка пьесы" class="play__image">
+      <div class="play__description">Семён Серзин сделал читку этой пьесы в рамках основной программы Любимовки-2017,
+        Варочный Цех предоставил грант на
+        постановку, а Московский драматический театр имени А.С. Пушкина принял спектакль в репертуар.</div>
+    </section>
+
+    <section class="photos hidden">
+      <h4 class="photos__description">Заголовок блока
+        с фотографиями</h4>
+      <div class="photos__grid">
+        <img src="./images/Rectangle 193 (1).jpg" alt="Solnechnaya-liniya-Kraeva" class="photos__item" />
+        <img src="./images/Rectangle 194 (1).jpg" alt="image" class="photos__item" />
+        <img src="./images/Rectangle 158 (1).jpg" alt="pexels-cottonbro" class="photos__item" />
+        <img src="./images/Rectangle 160 (1).jpg" alt="rehearsal" class="photos__item" />
+        <img src="./images/Rectangle 196 (1).jpg" alt="theater performance" class="photos__item" />
+        <img src="./images/Rectangle 197 (1).jpg" alt="script reading" class="photos__item" />
+        <img src="./images/Rectangle 195 (1).jpg" alt="orchestra" class="photos__item" />
+        <img src="./images/Rectangle 198 (1).jpg" alt="lady" class="photos__item" />
+      </div>
+    </section>
+
+    <section class="viewer-slider"></section>
+    <section class="reviews">
+      <div class="slider">
+        <h2 class="slider__title">Отзывы зрителей</h2>
+        <div class="slider__points">
+          <div class="slider__point slider__point_active"></div>
+          <div class="slider__point"></div>
+          <div class="slider__point"></div>
+          <div class="slider__point"></div>
         </div>
-        <img src="./images/about-play-img.jpg" alt="Обложка пьесы" class="play__image">
-        <div class="play__description">Семён Серзин сделал читку этой пьесы в рамках основной программы Любимовки-2017,
-          Варочный Цех предоставил грант на
-          постановку, а Московский драматический театр имени А.С. Пушкина принял спектакль в репертуар.</div>
-      </section>
-
-      <section class="photos">
-        <h4 class="photos__description">Заголовок блока
-с фотографиями</h4>
-        <div class="photos__grid">
-          <img src="./images/Rectangle 193 (1).jpg" alt="Solnechnaya-liniya-Kraeva" class="photos__item" />
-          <img src="./images/Rectangle 194 (1).jpg" alt="image" class="photos__item" />
-          <img src="./images/Rectangle 158 (1).jpg" alt="pexels-cottonbro" class="photos__item" />
-          <img src="./images/Rectangle 160 (1).jpg" alt="rehearsal" class="photos__item" />
-          <img src="./images/Rectangle 196 (1).jpg" alt="theater performance" class="photos__item" />
-          <img src="./images/Rectangle 197 (1).jpg" alt="script reading" class="photos__item" />
-          <img src="./images/Rectangle 195 (1).jpg" alt="orchestra" class="photos__item" />
-          <img src="./images/Rectangle 198 (1).jpg" alt="lady" class="photos__item" />
+        <div class="slider__buttons">
+          <div class="slider__button slider__button_type_left">&larr;</div>
+          <div class="slider__button slider__button_type_right">&rarr;</div>
         </div>
-      </section>
+        <div class="slider__items">Отзывы</div>
+      </div>
+    </section>
 
-      <section class="viewer-slider"></section>
-
-    </main>
+  </main>
 
   <footer class="footer"></footer>
 
-  <script defer src="./scripts/index.js"></script>
+  <script defer src="./scripts/index.js" type="module"></script>
 </body>
 
 </html>

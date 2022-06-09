@@ -24,7 +24,24 @@
 @import url(../blocks/photos/__grid/photos__grid.css);
 @import url(../blocks/photos/__item/photos__item.css);
 
+@import url(../blocks//slider/slider.css);
+@import url(../blocks//slider/__title/slider__title.css);
+@import url(../blocks//slider/__points/slider__points.css);
+@import url(../blocks//slider/__point/slider__point.css);
+@import url(../blocks//slider/__point/_active/slider__point_active.css);
+@import url(../blocks//slider/__items/slider__items.css);
+@import url(../blocks//slider/__buttons/slider__buttons.css);
+@import url(../blocks//slider/__button/slider__button.css);
+@import url(../blocks//slider/__button/_type/button__slider_type_left.css);
+@import url(../blocks//slider/__button/_type/button__slider_type_right.css);
+
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+
+@import url(../blocks/hidden/hidden.css);
+
 .page {
+  box-sizing: border-box;
   background-color: #ecebe8;
   max-width: 1440px;
   min-width: 414px;

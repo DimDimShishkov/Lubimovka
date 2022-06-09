@@ -1,0 +1,13 @@
+.reviews {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: calc(100vw - 60px - 60px);
+  padding-top: 112px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 950px) {
+  .reviews {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,8 @@
+.slider__point {
+  box-sizing: border-box;
+  margin: 0;
+  width: 6px;
+  height: 6px;
+  border: 1px solid #242424;
+  border-radius: 50%;
+}

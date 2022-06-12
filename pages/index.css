@@ -162,3 +162,96 @@
   background-color: #ecebe8;
   cursor: pointer;
 }
+
+.share {
+  padding: 57px 0 139px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.share__title {
+  font-family: "Neue Machina";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  max-width: 666px;
+  padding: 0;
+  margin: 0 0 0 362px;
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 800px) {
+  .share__title {
+    margin-left: 26px;
+    max-width: 363px;
+  }
+}
+
+.share__links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  position: absolute;
+  margin: -8px 0 0 584px;
+}
+
+@media screen and (max-width: 800px) {
+  .share__links {
+    position: static;
+    margin: 5px 0 5px 26px;
+  }
+}
+
+.share__link-container {
+  padding: 0;
+  margin: 0;
+  border-left: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  height: 24px;
+  margin-left: 8px;
+  background-color: transparent;
+  transition: .8s ease;
+}
+
+.share__link-container:hover {
+  box-shadow: 70px 0 0 0 #242424 inset;
+  cursor: pointer;
+}
+
+.share__link {
+  font-family: "Formular";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.14;
+  padding-right: 13px;
+  text-decoration: none;
+  color: #242424;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.share__link:hover {
+  filter: invert();
+}
+
+
+.share__link-container:first-of-type {
+  margin-left: 0;
+}
+
+.share__link-arrow {
+  height: 25px;
+  width: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  .share__link-arrow {
+  height: 20px;
+  width: 20px;
+  padding-right: 5px;
+  }
+}

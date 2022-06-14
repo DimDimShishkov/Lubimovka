@@ -19,10 +19,60 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__support-link/header__support-link.css);
 
+@import url(../blocks/link-button/link-button.css);
+@import url(../blocks/buttons/projects-button.css);
+@import url(../blocks/buttons/button-arrow_left.css);
+@import url(../blocks/buttons/order-btn.css);
+@import url(../blocks/buttons/order-btn__image.css);
+
+/* Блок 1-2*/
+@import url(../blocks/play/play.css);
+@import url(../blocks/about-play/about-play.css);
+@import url(../blocks/about-play/__title/about-play__title.css);
+@import url(../blocks/about-play/__subtitle/about-play__subtitle.css);
+@import url(../blocks/about-play/__time/about-play__time.css);
+@import url(../blocks/play/__image/play__image.css);
+@import url(../blocks/play/__description/play__description.css);
+
+/* Блок 3 */
+@import url(../blocks/secondPlay/secondPlay.css);
+@import url(../blocks/secondPlay/__time/secondPlay__time.css);
+@import url(../blocks/secondPlay/__person/secondPlay__person.css);
+@import url(../blocks/secondPlay/__person/type/secondPlay__person_type_title.css);
+@import url(../blocks/secondPlay/__person/type/secondPlay__person_type_name.css);
+@import url(../blocks/secondPlay/__description/secondPlay__description.css);
+@import url(../blocks/secondPlay/__description-para/secondPlay__description-para.css);
+@import url(../blocks/secondPlay/__video/secondPlay__video.css);
+@import url(../blocks/secondPlay/__video-wrapper/secondPlay__video-wrapper.css);
+@import url(../blocks/secondPlay/__info/secondPlay__info.css);
+@import url(../blocks/secondPlay/__people/secondPlay__people.css);
+@import url(../blocks/secondPlay/__description-items/secondPlay__description-items.css);
+@import url(../blocks/secondPlay/__description-item/secondPlay__description-item.css);
+@import url(../blocks/secondPlay/__description-title/secondPlay__description-title.css);
+
+/* Блок 4 */
+@import url(../blocks/readings/readings.css);
+@import url(../blocks/readings/__container/readings__container.css);
+@import url(../blocks/readings/__play/readings__play.css);
+@import url(../blocks/readings/__watch/readings__watch.css);
+@import url(../blocks/readings/__watch/_visible/readings__watch_visible.css);
+@import url(../blocks/readings/__download/readings__download.css);
+@import url(../blocks/readings/__download/_visible/readings__download_visible.css);
+@import url(../blocks/readings/__name-container/readings__name-container.css);
+@import url(../blocks/readings/__name/readings__name.css);
+@import url(../blocks/readings/__city-year/readings__city-year.css);
+@import url(../blocks/readings/__watch-link/readings__watch-link.css);
+@import url(../blocks/readings/__download-link/readings__download-link.css);
+
+/* Блок 5 */
 @import url(../blocks/photos/photos.css);
 @import url(../blocks/photos/__description/photos__description.css);
 @import url(../blocks/photos/__grid/photos__grid.css);
 @import url(../blocks/photos/__item/photos__item.css);
+
+/* блок 8 */
+@import url(../blocks/largePhoto/largePhoto.css);
+@import url(../blocks/largePhoto/__img/largePhoto__img.css);
 
 .page {
   background-color: #ecebe8;
@@ -38,570 +88,3 @@
   overflow-y: hidden;
 }
 
-.link-button {
-  font-family: "Formular";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 14px;
-  text-align: right;
-  color: #242424;
-  text-transform: uppercase;
-  padding: 2px 0 3px 10px;
-  margin: 0;
-  margin-left: 30px;
-  margin-top: 33px;
-  border: none;
-  border-right: 1px solid #242424;
-  border-bottom: 1px solid #242424;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-color: #ecebe8;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 950px) {
-  .projects-button {
-    margin-top: 31px;
-    position: absolute;
-    top: 0;
-    left: 56px;
-  }
-}
-
-.button-arrow_left {
-  padding: 0;
-  margin: 0;
-  margin-left: 5px;
-  width: 25px;
-  height: 25px;
-}
-
-@media screen and (max-width: 950px) {
-  .button-arrow_left {
-    margin-left: 0px;
-  }
-}
-
-/* Блок 1-2*/
-
-.play {
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 0 0;
-}
-
-.about-play {
-  display: flex;
-  flex-direction: column;
-  margin: 45px 20px 0 120px;
-}
-
-@media screen and (max-width: 1150px) {
-  .about-play {
-    margin-left: 60px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .about-play {
-    margin-left: 40px;
-  }
-}
-
-.about-play__title {
-  margin: 0;
-  max-width: 540px;
-  font-family: "Neue Machina", Arial, sans-serif;
-  font-size: 72px;
-  font-weight: 400;
-  letter-spacing: -0.01em;
-}
-
-@media screen and (max-width: 1000px) {
-  .about-play__title {
-    font-size: 40px;
-    line-height: 40px;
-  }
-}
-
-.about-play__subtitle {
-  max-width: 380px;
-  margin: 38px 0 0 59px;
-  padding: 0;
-  font-family: "Neue Machina", Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: -0.01em;
-  line-height: 24px;
-}
-
-@media screen and (max-width: 1000px) {
-  .about-play__subtitle {
-    font-size: 20px;
-    line-height: 24px;
-    margin-left: 20px;
-  }
-}
-
-.about-play__time {
-  max-width: 420px;
-  margin: 212px 0 0 5px;
-  padding: 0;
-  font-family: "Neue Machina", Arial, sans-serif;
-  font-size: 28px;
-  font-weight: 400;
-  letter-spacing: -0.01em;
-  line-height: 32px;
-}
-
-@media screen and (max-width: 1000px) {
-  .about-play__time {
-    margin-top: 100px;
-  }
-}
-
-.play__image {
-  object-fit: cover;
-  width: 50%;
-  max-height: 614px;
-}
-
-.order-btn {
-  width: 240px;
-  height: 56px;
-  outline: none;
-  border: 1px solid #000000;
-  margin-top: 20px;
-  font-family: "Formular", Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 16px 18px 16px;
-  background-color: #ecebe8;
-  cursor: pointer;
-}
-
-.order-btn__image {
-  width: 25px;
-  height: 25px;
-  margin-top: 3px;
-}
-
-.play__description {
-  font-family: "Neue Machina", Arial, sans-serif;
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 32px;
-  letter-spacing: -0.01em;
-  margin: 0;
-  margin-left: 50%;
-  margin-top: 45px;
-  max-width: 40%;
-}
-
-@media screen and (max-width: 1000px) {
-  .play__description {
-    font-size: 20px;
-    line-height: 24px;
-  }
-}
-
-/* Блок 3 */
-
-.secondPlay {
-  padding: 0;
-  padding-top: 70px;
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  justify-content: space-between;
-}
-
-/* @media screen and (max-width: 800px) {
-  .secondPlay {
-  }
-} */
-
-.secondPlay__time {
-  font-family: "Neue Machina";
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 1.14;
-  color: #242424;
-  padding: 0;
-  margin: 0;
-}
-
-.secondPlay__person_type_title {
-  font-family: "Formular";
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 1.37;
-  letter-spacing: -0.01em;
-  color: #242424;
-  padding: 0;
-  margin: 0;
-}
-
-.secondPlay__person_type_name {
-  font-family: "Formular";
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 1.4;
-  color: #242424;
-  padding: 4px 0 0 28px;
-  margin: 0;
-  letter-spacing: -0.01em;
-}
-
-.secondPlay__description {
-  width: 50%;
-}
-
-/* @media screen and (max-width: 800px) {
-  .secondPlay__description {
-  }
-} */
-
-.secondPlay__description-para {
-  font-family: "Formular";
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 1.4;
-  color: #242424;
-  padding: 16px 0 0;
-  margin: 0;
-  text-indent: 60px;
-  letter-spacing: -1%;
-}
-
-.secondPlay__description-para:first-of-type {
-  padding-top: 0;
-  text-indent: 0;
-}
-
-.secondPlay__video {
-  width: 100%;
-  height: 100%;
-}
-
-.secondPlay__video-wrapper {
-  width: 96%;
-  height: 390px;
-}
-
-@media screen and (max-width: 1100px) {
-  .secondPlay__video-wrapper {
-    width: 96%;
-    height: 275px;
-  }
-}
-
-.secondPlay__info {
-  padding-left: 12.66vw;
-  margin-right: 20px;
-}
-
-@media screen and (max-width: 1200px) {
-  .secondPlay__info {
-    padding-left: 10vw;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  .secondPlay__info {
-    padding-left: 8vw;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .secondPlay__info {
-    padding: 58px 20px 72px 27px;
-    background-color: #fff;
-  }
-}
-
-.secondPlay__people {
-  list-style-type: none;
-  padding: 3px 0 0;
-  margin: 0;
-  max-width: 448px;
-}
-
-.secondPlay__person {
-  padding: 24px 0 0;
-  margin: 0;
-  max-width: 420px;
-}
-
-.secondPlay__person:first-of-type {
-  padding-top: 20px;
-}
-
-.secondPlay__description-items {
-  list-style-type: none;
-  padding: 0;
-  margin: 66px 0 0;
-  font-family: "Formular";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 28px;
-  letter-spacing: -0.01em;
-  max-width: 84%;
-  font-feature-settings: 'ss01' on;
-}
-
-.secondPlay__description-item {
-  margin: 0;
-  padding: 0;
-  margin-bottom: 16px;
-  text-indent: 60px;
-}
-
-.secondPlay__description-item:first-child {
-  text-indent: 0;
-}
-
-.secondPlay__description-item:nth-child(2) {
-  margin-bottom: 28px;
-}
-
-.secondPlay__description-title {
-  margin: 0;
-  padding: 0;
-}
-
-
-/* Блок 4 */
-.readings {
-  margin-top: 80px;
-  margin-left: 720px;
-}
-
-@media screen and (max-width: 800px) {
-  .readings {
-    margin: 100px 85px 0 85px;
-    outline: none;
-  }
-}
-
-.readings__container {
-  width: 240px;
-  height: 412px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  background-color: #B7C09D;
-  outline: none;
-}
-
-@media screen and (max-width: 800px) {
-  .readings__container {
-    margin-top: 32px;
-    width: 244px;
-    height: 441px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .readings::before {
-    content: "Почитать пьесу";
-    display: block;
-    font-family: 'Neue Machina';
-    font-size: 28px;
-    font-weight: normal;
-    line-height: 1.14;
-    text-transform: none;
-  }
-}
-
-.readings__play {
-  background-color: #B7C09D;
-  height: 187px;
-  font-family: "Neue Machina";
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: -1%;
-  padding: 24px 0 0 24px;
-  box-sizing: border-box;
-}
-
-.readings__play:hover {
-  cursor: pointer;
-}
-
-@media screen and (max-width: 800px) {
-  .readings__play {
-    height: 230px;
-  }
-}
-
-.readings__watch {
-  height: 56px;
-  box-sizing: border-box;
-  border-top: 1px solid #242424;
-  padding-left: 16px;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #B7C09D;
-  font-family: "FormularLight";
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 1.37;
-  display: flex;
-  opacity:0;
-  transition: all .5s ease-out;
-}
-
-.readings__watch_visible {
-  opacity: 1;
-  transition: all .5s ease-in;
-}
-
-.readings__download {
-  height: 56px;
-  box-sizing: border-box;
-  border-top: 1px solid #242424;
-  border-bottom: 1px solid #242424;
-  padding-left: 16px;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #B7C09D;
-  font-family: "FormularLight";
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 1.37;
-  display: flex;
-  opacity: 0;
-  transition: all .5s ease-out;
-}
-
-.readings__download_visible {
-  opacity: 1;
-  transition: all .5s ease-in;
-}
-
-.readings__watch:hover {
-  background-color: #242424;
-  color: #fff;
-  cursor: pointer;
-}
-
-.readings__watch:hover > .readings__watch-link {
-  filter: invert(1);
-}
-
-.readings__download:hover {
-  background-color: #242424;
-  color: #fff;
-  cursor: pointer;
-}
-
-.readings__download:hover > .readings__download-link {
-  filter: invert(1);
-}
-
-.readings__name-container {
-  display: block;
-  flex-direction: column;
-  padding-top: 17px;
-  background-color: #ecebe8;
-  outline: none;
-}
-
-@media screen and (max-width: 800px) {
-  .readings__name-container {
-    padding-top: 24px;
-  }
-}
-
-.readings__name {
-  display: inline;
-  padding: 0;
-  margin: 0;
-  white-space: pre-wrap;
-  line-height: 1.4;
-  font-family: "Neue Machina";
-  font-weight: 400;
-  font-size: 20px;
-  letter-spacing: -1%;
-}
-
-@media screen and (max-width: 800px) {
-  .readings__name {
-    white-space: initial;
-  }
-}
-
-.readings__name-container:hover {
-  cursor: pointer;
-}
-
-.readings__name-container:hover > .readings__name {
-  background-color: #242424;
-  color: #fff;
-  cursor: pointer;
-  transition: all .4s linear;
-}
-
-.readings__city-year {
-  padding: 0;
-  margin: 0;
-  white-space: pre;
-  font-family: "FormularLight";
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 1.37;
-  letter-spacing: -1%;
-  padding-top: 4px;
-  background-color: #ecebe8;
-}
-
-.readings__watch-link {
-  display: block;
-  margin-right: 15px;
-  width: 25px;
-  height: 25px;
-  background-image: url(../images/arrow-45.svg);
-  transition: filter .5s ease-out;
-}
-
-.readings__download-link {
-  display: block;
-  margin-right: 15px;
-  width: 25px;
-  height: 25px;
-  background-image: url(../images/arrow-down.svg);
-  transition: filter .5s ease-out;
-}
-
-/* блок 8 */
-
-.largePhoto {
-  display: flex;
-  margin-top: 64px;
-}
-
-.largePhoto__img {
-  width: 91.667%;
-  height: auto;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 800px) {
-  .largePhoto__img {
-  width: 100%;
-  margin-top: 0;
-  height: 252.22px;
-  object-fit: cover;
-  }
-}

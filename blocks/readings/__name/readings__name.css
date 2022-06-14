@@ -1,0 +1,17 @@
+.readings__name {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  white-space: pre-wrap;
+  line-height: 1.4;
+  font-family: "Neue Machina";
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -1%;
+}
+
+@media screen and (max-width: 800px) {
+  .readings__name {
+    white-space: initial;
+  }
+}

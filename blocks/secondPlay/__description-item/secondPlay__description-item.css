@@ -1,0 +1,14 @@
+.secondPlay__description-item {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+  text-indent: 60px;
+}
+
+.secondPlay__description-item:first-child {
+  text-indent: 0;
+}
+
+.secondPlay__description-item:nth-child(2) {
+  margin-bottom: 28px;
+}

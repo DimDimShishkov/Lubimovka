@@ -1,0 +1,23 @@
+.about-play {
+  display: flex;
+  flex-direction: column;
+  margin: 45px 20px 0 120px;
+}
+
+@media screen and (max-width: 1150px) {
+  .about-play {
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about-play {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-play {
+    margin: 18px 23px 38px;
+  }
+}

@@ -583,3 +583,25 @@
   background-image: url(../images/arrow-down.svg);
   transition: filter .5s ease-out;
 }
+
+/* блок 8 */
+
+.largePhoto {
+  display: flex;
+  margin-top: 64px;
+}
+
+.largePhoto__img {
+  width: 91.667%;
+  height: auto;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+  .largePhoto__img {
+  width: 100%;
+  margin-top: 0;
+  height: 252.22px;
+  object-fit: cover;
+  }
+}

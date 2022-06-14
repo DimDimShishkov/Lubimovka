@@ -376,3 +376,210 @@
   margin: 0;
   padding: 0;
 }
+
+
+/* Блок 4 */
+.readings {
+  margin-top: 80px;
+  margin-left: 720px;
+}
+
+@media screen and (max-width: 800px) {
+  .readings {
+    margin: 100px 85px 0 85px;
+    outline: none;
+  }
+}
+
+.readings__container {
+  width: 240px;
+  height: 412px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #B7C09D;
+  outline: none;
+}
+
+@media screen and (max-width: 800px) {
+  .readings__container {
+    margin-top: 32px;
+    width: 244px;
+    height: 441px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .readings::before {
+    content: "Почитать пьесу";
+    display: block;
+    font-family: 'Neue Machina';
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 1.14;
+    text-transform: none;
+  }
+}
+
+.readings__play {
+  background-color: #B7C09D;
+  height: 187px;
+  font-family: "Neue Machina";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -1%;
+  padding: 24px 0 0 24px;
+  box-sizing: border-box;
+}
+
+.readings__play:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .readings__play {
+    height: 230px;
+  }
+}
+
+.readings__watch {
+  height: 56px;
+  box-sizing: border-box;
+  border-top: 1px solid #242424;
+  padding-left: 16px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #B7C09D;
+  font-family: "FormularLight";
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.37;
+  display: flex;
+  opacity:0;
+  transition: all .5s ease-out;
+}
+
+.readings__watch_visible {
+  opacity: 1;
+  transition: all .5s ease-in;
+}
+
+.readings__download {
+  height: 56px;
+  box-sizing: border-box;
+  border-top: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  padding-left: 16px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #B7C09D;
+  font-family: "FormularLight";
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.37;
+  display: flex;
+  opacity: 0;
+  transition: all .5s ease-out;
+}
+
+.readings__download_visible {
+  opacity: 1;
+  transition: all .5s ease-in;
+}
+
+.readings__watch:hover {
+  background-color: #242424;
+  color: #fff;
+  cursor: pointer;
+}
+
+.readings__watch:hover > .readings__watch-link {
+  filter: invert(1);
+}
+
+.readings__download:hover {
+  background-color: #242424;
+  color: #fff;
+  cursor: pointer;
+}
+
+.readings__download:hover > .readings__download-link {
+  filter: invert(1);
+}
+
+.readings__name-container {
+  display: block;
+  flex-direction: column;
+  padding-top: 17px;
+  background-color: #ecebe8;
+  outline: none;
+}
+
+@media screen and (max-width: 800px) {
+  .readings__name-container {
+    padding-top: 24px;
+  }
+}
+
+.readings__name {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  white-space: pre-wrap;
+  line-height: 1.4;
+  font-family: "Neue Machina";
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -1%;
+}
+
+@media screen and (max-width: 800px) {
+  .readings__name {
+    white-space: initial;
+  }
+}
+
+.readings__name-container:hover {
+  cursor: pointer;
+}
+
+.readings__name-container:hover > .readings__name {
+  background-color: #242424;
+  color: #fff;
+  cursor: pointer;
+  transition: all .4s linear;
+}
+
+.readings__city-year {
+  padding: 0;
+  margin: 0;
+  white-space: pre;
+  font-family: "FormularLight";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.37;
+  letter-spacing: -1%;
+  padding-top: 4px;
+  background-color: #ecebe8;
+}
+
+.readings__watch-link {
+  display: block;
+  margin-right: 15px;
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/arrow-45.svg);
+  transition: filter .5s ease-out;
+}
+
+.readings__download-link {
+  display: block;
+  margin-right: 15px;
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/arrow-down.svg);
+  transition: filter .5s ease-out;
+}

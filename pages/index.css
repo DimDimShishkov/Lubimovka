@@ -2,72 +2,379 @@
 @import url(../vendor/FormularLight/formular-light.css);
 @import url(../vendor/NeueMachinaRegular/neue-machina-regular.css);
 
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__container/_active/header__container_active.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__nav/_selected/header__nav_selected.css);
+@import url(../blocks/header/__mobile/header__mobile.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu/_selected/header__menu_selected.css);
+@import url(../blocks/header/__items/header__items.css);
+@import url(../blocks/header/__items-navigation/header__items-navigation.css);
+@import url(../blocks/header/__items-social/header__items-social.css);
+@import url(../blocks/header/__item/header__item.css);
+@import url(../blocks/header/__social-item/header__social-item.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__support-link/header__support-link.css);
+
+@import url(../blocks/photos/photos.css);
+@import url(../blocks/photos/__description/photos__description.css);
+@import url(../blocks/photos/__grid/photos__grid.css);
+@import url(../blocks/photos/__item/photos__item.css);
+
 .page {
   background-color: #ecebe8;
   max-width: 1440px;
   min-width: 414px;
   margin: 0 auto;
   padding: 0;
+  color: #242424;
+  position: relative;
 }
 
-.photos {
-  padding: 144px 0 0;
-  margin: 0;
+.page_active {
+  overflow-y: hidden;
 }
 
-.photos__description {
-  white-space: pre;
-  font-family: "Neue Machina";
+.link-button {
+  font-family: "Formular";
   font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 40px;
-  letter-spacing: -0.01em;
-  margin: 0 0 40px 362px;
-  padding: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: right;
+  color: #242424;
+  text-transform: uppercase;
+  padding: 2px 0 3px 10px;
+  margin: 0;
+  margin-left: 30px;
+  margin-top: 33px;
+  border: none;
+  border-right: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ecebe8;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 1440px) {
-  .photos__description {
-    margin: 0 0 40px 25vw;
+@media screen and (max-width: 950px) {
+  .projects-button {
+    margin-top: 31px;
+    position: absolute;
+    top: 0;
+    left: 56px;
+  }
+}
+
+.button-arrow_left {
+  padding: 0;
+  margin: 0;
+  margin-left: 5px;
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (max-width: 950px) {
+  .button-arrow_left {
+    margin-left: 0px;
+  }
+}
+
+/* Блок 1-2*/
+
+.play {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 0;
+}
+
+.about-play {
+  display: flex;
+  flex-direction: column;
+  margin: 45px 20px 0 120px;
+}
+
+@media screen and (max-width: 1150px) {
+  .about-play {
+    margin-left: 60px;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .photos__description {
-    font-size: 28px;
-    line-height: 32px;
-    letter-spacing: -0.01em;
+  .about-play {
+    margin-left: 40px;
   }
 }
 
-@media screen and (max-width: 800px) {
-  .photos__description {
-    margin: 0 0 22px 24px;
-    white-space: normal;
-    max-width: 350px;
+.about-play__title {
+  margin: 0;
+  max-width: 540px;
+  font-family: "Neue Machina", Arial, sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-play__title {
+    font-size: 40px;
+    line-height: 40px;
   }
 }
 
-.photos__grid {
+.about-play__subtitle {
+  max-width: 380px;
+  margin: 38px 0 0 59px;
+  padding: 0;
+  font-family: "Neue Machina", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-play__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 20px;
+  }
+}
+
+.about-play__time {
+  max-width: 420px;
+  margin: 212px 0 0 5px;
+  padding: 0;
+  font-family: "Neue Machina", Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 32px;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-play__time {
+    margin-top: 100px;
+  }
+}
+
+.play__image {
+  object-fit: cover;
+  width: 50%;
+  max-height: 614px;
+}
+
+.order-btn {
+  width: 240px;
+  height: 56px;
+  outline: none;
+  border: 1px solid #000000;
+  margin-top: 20px;
+  font-family: "Formular", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 16px 18px 16px;
+  background-color: #ecebe8;
+  cursor: pointer;
+}
+
+.order-btn__image {
+  width: 25px;
+  height: 25px;
+  margin-top: 3px;
+}
+
+.play__description {
+  font-family: "Neue Machina", Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  margin: 0;
+  margin-left: 50%;
+  margin-top: 45px;
+  max-width: 40%;
+}
+
+@media screen and (max-width: 1000px) {
+  .play__description {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+/* Блок 3 */
+
+.secondPlay {
+  padding: 0;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+/* @media screen and (max-width: 800px) {
+  .secondPlay {
+  }
+} */
+
+.secondPlay__time {
+  font-family: "Neue Machina";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.14;
+  color: #242424;
   padding: 0;
   margin: 0;
-  display: grid;
-  grid-template: repeat(3, 1fr) / repeat(4, 1fr);
-  gap: 1px;
-  width: 100%;
-  box-sizing: border-box;
 }
 
-@media screen and (max-width: 800px) {
-  .photos__grid {
-    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
-    gap: 2px 3px;
+.secondPlay__person_type_title {
+  font-family: "Formular";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.37;
+  letter-spacing: -0.01em;
+  color: #242424;
+  padding: 0;
+  margin: 0;
+}
+
+.secondPlay__person_type_name {
+  font-family: "Formular";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #242424;
+  padding: 4px 0 0 28px;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.secondPlay__description {
+  width: 50%;
+}
+
+/* @media screen and (max-width: 800px) {
+  .secondPlay__description {
+  }
+} */
+
+.secondPlay__description-para {
+  font-family: "Formular";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #242424;
+  padding: 16px 0 0;
+  margin: 0;
+  text-indent: 60px;
+  letter-spacing: -1%;
+}
+
+.secondPlay__description-para:first-of-type {
+  padding-top: 0;
+  text-indent: 0;
+}
+
+.secondPlay__video {
+  width: 100%;
+  height: 100%;
+}
+
+.secondPlay__video-wrapper {
+  width: 96%;
+  height: 390px;
+}
+
+@media screen and (max-width: 1100px) {
+  .secondPlay__video-wrapper {
+    width: 96%;
+    height: 275px;
   }
 }
 
-.photos__item {
-  width: 100%;
+.secondPlay__info {
+  padding-left: 12.66vw;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .secondPlay__info {
+    padding-left: 10vw;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .secondPlay__info {
+    padding-left: 8vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .secondPlay__info {
+    padding: 58px 20px 72px 27px;
+    background-color: #fff;
+  }
+}
+
+.secondPlay__people {
+  list-style-type: none;
+  padding: 3px 0 0;
+  margin: 0;
+  max-width: 448px;
+}
+
+.secondPlay__person {
+  padding: 24px 0 0;
+  margin: 0;
+  max-width: 420px;
+}
+
+.secondPlay__person:first-of-type {
+  padding-top: 20px;
+}
+
+.secondPlay__description-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 66px 0 0;
+  font-family: "Formular";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  max-width: 84%;
+  font-feature-settings: 'ss01' on;
+}
+
+.secondPlay__description-item {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+  text-indent: 60px;
+}
+
+.secondPlay__description-item:first-child {
+  text-indent: 0;
+}
+
+.secondPlay__description-item:nth-child(2) {
+  margin-bottom: 28px;
+}
+
+.secondPlay__description-title {
+  margin: 0;
+  padding: 0;
 }
 
 

@@ -1,0 +1,19 @@
+.header__items-social {
+  border-left: 1px solid #242424;
+  padding: 10px 0 22px 24px;
+}
+
+@media screen and (max-width: 1380px) {
+  .header__items-social {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .header__items-social {
+    border-left: none;
+    border-bottom: 1px solid #242424;
+    padding: 0;
+    display: block;
+  }
+}

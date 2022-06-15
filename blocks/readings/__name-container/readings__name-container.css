@@ -1,14 +1,14 @@
 .readings__name-container {
   display: block;
   flex-direction: column;
-  padding-top: 17px;
+  padding-top: 14px;
   background-color: #ecebe8;
   outline: none;
 }
 
 @media screen and (max-width: 800px) {
   .readings__name-container {
-    padding-top: 24px;
+    padding-top: 20px;
   }
 }
 

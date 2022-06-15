@@ -1,6 +1,7 @@
 .readings {
   margin-top: 80px;
   margin-left: 50%;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 800px) {
@@ -17,5 +18,6 @@
     font-weight: normal;
     line-height: 1.14;
     text-transform: none;
+    margin-left: -61px;
   }
 }

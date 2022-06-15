@@ -1,3 +1,5 @@
+import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+
 const page = document.querySelector(".page");
 const header = page.querySelector(".header");
 const mobileMenu = header.querySelector(".header__menu");
@@ -30,3 +32,31 @@ const closeMenu = (evt) => {
     closeMobileMenu();
   }
 }
+
+const swiper = new Swiper('.swiper', {
+  slidesPerView: 1,
+  spaceBetween: 0,
+  pagination: {
+    el: '.slider__points',
+    clickable: true,
+    dynamicBullets: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.slider__button_type_right',
+    prevEl: '.slider__button_type_left',
+  },
+
+  breakpoints: {
+    // when window width is >= 320px
+    950: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+    1280: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    }
+  }
+})

@@ -3,3 +3,9 @@
   height: 8px;
   background-color: #242424;
 }
+
+.swiper-pagination-bullet-active {
+  width: 8px !important;
+  height: 8px !important;
+  background-color: #242424;
+}

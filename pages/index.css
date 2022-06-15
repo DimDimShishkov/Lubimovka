@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/FormularLight/formular-light.css);
 @import url(../vendor/NeueMachinaRegular/neue-machina-regular.css);
+@import url(../vendor/swiper/swiper-bundle.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -34,9 +35,11 @@
 @import url(../blocks//slider/__button/slider__button.css);
 @import url(../blocks//slider/__button/_type/button__slider_type_left.css);
 @import url(../blocks//slider/__button/_type/button__slider_type_right.css);
+@import url(../blocks//slider/__background/slider__background.css);
 
 @import url(../blocks/reviews/reviews.css);
-@import url(../blocks/reviews/__title/reviews__title.css);
+
+@import url(../blocks/review/review.css);
 
 @import url(../blocks/hidden/hidden.css);
 

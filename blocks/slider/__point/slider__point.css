@@ -1,8 +1,22 @@
 .slider__point {
   box-sizing: border-box;
-  margin: 0;
+  margin: 0 !important;
   width: 6px;
   height: 6px;
   border: 1px solid #242424;
   border-radius: 50%;
+}
+
+
+.swiper-pagination-bullet {
+  box-sizing: border-box;
+  margin: 0 !important;
+  width: 6px;
+  height: 6px;
+  border: 1px solid #242424 !important;
+  border-radius: 50%;
+  background-color: transparent;
+  transform: scale(1) !important;
+  opacity: 1 !important;
+  position: static !important;
 }

@@ -24,6 +24,8 @@
 @import url(../blocks/photos/__grid/photos__grid.css);
 @import url(../blocks/photos/__item/photos__item.css);
 
+@import url(../blocks/footer/footer.css);
+
 .page {
   background-color: #ecebe8;
   max-width: 1440px;

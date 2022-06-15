@@ -17,5 +17,6 @@
 @media screen and (max-width: 800px) {
   .readings__play {
     height: 230px;
+    padding-top: 16px;
   }
 }

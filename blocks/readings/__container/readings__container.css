@@ -1,6 +1,6 @@
 .readings__container {
   width: 240px;
-  height: 412px;
+  min-height: 412px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -12,6 +12,6 @@
   .readings__container {
     margin-top: 32px;
     width: 244px;
-    height: 441px;
+    min-height: 441px;
   }
 }

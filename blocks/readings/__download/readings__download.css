@@ -2,12 +2,11 @@
   height: 56px;
   box-sizing: border-box;
   border-top: 1px solid #242424;
-  border-bottom: 1px solid #242424;
   padding-left: 16px;
   justify-content: space-between;
   align-items: center;
   background-color: #B7C09D;
-  font-family: "FormularLight";
+  font-family: "Formular";
   text-transform: uppercase;
   font-weight: 300;
   font-size: 16px;

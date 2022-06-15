@@ -20,6 +20,52 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__support-link/header__support-link.css);
 
+@import url(../blocks/link-button/link-button.css);
+@import url(../blocks/buttons/projects-button.css);
+@import url(../blocks/buttons/button-arrow_left.css);
+@import url(../blocks/buttons/order-btn.css);
+@import url(../blocks/buttons/order-btn__image.css);
+
+/* Блок 1-2*/
+@import url(../blocks/play/play.css);
+@import url(../blocks/about-play/about-play.css);
+@import url(../blocks/about-play/__title/about-play__title.css);
+@import url(../blocks/about-play/__subtitle/about-play__subtitle.css);
+@import url(../blocks/about-play/__time/about-play__time.css);
+@import url(../blocks/play/__image/play__image.css);
+@import url(../blocks/play/__description/play__description.css);
+
+/* Блок 3 */
+@import url(../blocks/secondPlay/secondPlay.css);
+@import url(../blocks/secondPlay/__time/secondPlay__time.css);
+@import url(../blocks/secondPlay/__person/secondPlay__person.css);
+@import url(../blocks/secondPlay/__person/type/secondPlay__person_type_title.css);
+@import url(../blocks/secondPlay/__person/type/secondPlay__person_type_name.css);
+@import url(../blocks/secondPlay/__description/secondPlay__description.css);
+@import url(../blocks/secondPlay/__description-para/secondPlay__description-para.css);
+@import url(../blocks/secondPlay/__video/secondPlay__video.css);
+@import url(../blocks/secondPlay/__video-wrapper/secondPlay__video-wrapper.css);
+@import url(../blocks/secondPlay/__info/secondPlay__info.css);
+@import url(../blocks/secondPlay/__people/secondPlay__people.css);
+@import url(../blocks/secondPlay/__description-items/secondPlay__description-items.css);
+@import url(../blocks/secondPlay/__description-item/secondPlay__description-item.css);
+@import url(../blocks/secondPlay/__description-title/secondPlay__description-title.css);
+
+/* Блок 4 */
+@import url(../blocks/readings/readings.css);
+@import url(../blocks/readings/__container/readings__container.css);
+@import url(../blocks/readings/__play/readings__play.css);
+@import url(../blocks/readings/__watch/readings__watch.css);
+@import url(../blocks/readings/__watch/_visible/readings__watch_visible.css);
+@import url(../blocks/readings/__download/readings__download.css);
+@import url(../blocks/readings/__download/_visible/readings__download_visible.css);
+@import url(../blocks/readings/__name-container/readings__name-container.css);
+@import url(../blocks/readings/__name/readings__name.css);
+@import url(../blocks/readings/__city-year/readings__city-year.css);
+@import url(../blocks/readings/__watch-link/readings__watch-link.css);
+@import url(../blocks/readings/__download-link/readings__download-link.css);
+
+/* Блок 5 */
 @import url(../blocks/photos/photos.css);
 @import url(../blocks/photos/__description/photos__description.css);
 @import url(../blocks/photos/__grid/photos__grid.css);
@@ -42,6 +88,9 @@
 @import url(../blocks/review/review.css);
 
 @import url(../blocks/hidden/hidden.css);
+/* блок 8 */
+@import url(../blocks/largePhoto/largePhoto.css);
+@import url(../blocks/largePhoto/__img/largePhoto__img.css);
 
 .page {
   box-sizing: border-box;
@@ -56,129 +105,4 @@
 
 .page_active {
   overflow-y: hidden;
-}
-
-.link-button {
-  font-family: "Formular";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 14px;
-  text-align: right;
-  color: #242424;
-  text-transform: uppercase;
-  padding: 2px 0 3px 10px;
-  margin: 0;
-  margin-left: 30px;
-  margin-top: 33px;
-  border: none;
-  border-right: 1px solid #242424;
-  border-bottom: 1px solid #242424;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-color: #ecebe8;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 950px) {
-  .projects-button {
-    margin-top: 31px;
-    position: absolute;
-    top: 0;
-    left: 56px;
-  }
-}
-
-.button-arrow_left {
-  padding: 0;
-  margin: 0;
-  margin-left: 5px;
-  width: 25px;
-  height: 25px;
-}
-
-@media screen and (max-width: 950px) {
-  .button-arrow_left {
-    margin-left: 0px;
-  }
-}
-
-/* Блок 1-2*/
-
-.play {
-  margin-left: 120px;
-  margin-top: 30px;
-
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  /*grid-template-columns: repeat(auto-fit, minmax(1fr, 720px));*/
-  grid-row-gap: 48px;
-  grid-column-gap: 60px;
-}
-
-.about-play {
-  max-width: 591px;
-}
-
-.play__description {
-  grid-row: 2;
-  grid-column: 2;
-  max-width: 591px;
-  font-family: "Neue Machina", Arial, sans-serif;
-  font-size: 28px;
-  font-weight: 400;
-  justify-self: start;
-}
-
-.about-play__title {
-  margin: 0;
-  top: 0;
-  max-width: 540px;
-  font-family: "Neue Machina", Arial, sans-serif;
-  font-size: 72px;
-  font-weight: 400;
-}
-
-.about-play__subtitle {
-  max-width: 380px;
-  margin: 37px 0 0 50px;
-  padding: 0;
-  font-family: "Neue Machina", Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.about-play__time {
-  max-width: 420px;
-  margin: 212px 0 0 0;
-  padding: 0;
-  font-family: "Neue Machina", Arial, sans-serif;
-  font-size: 28px;
-  font-weight: 400;
-}
-
-.play__image {
-  object-fit: cover;
-  width: 100%;
-  max-height: 614px;
-}
-
-.order-btn {
-  width: 240px;
-  height: 56px;
-  outline: none;
-  border: 1px solid #000000;
-  margin-top: 16px;
-  font-family: "FormularLight", Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 16px 18px 16px;
-  background-color: #ecebe8;
-  cursor: pointer;
 }

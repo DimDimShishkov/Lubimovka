@@ -1,0 +1,28 @@
+.readings__download {
+  height: 56px;
+  box-sizing: border-box;
+  border-top: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  padding-left: 16px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #B7C09D;
+  font-family: "FormularLight";
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.37;
+  display: flex;
+  opacity: 0;
+  transition: all .5s ease-out;
+}
+
+.readings__download:hover {
+  background-color: #242424;
+  color: #fff;
+  cursor: pointer;
+}
+
+.readings__download:hover > .readings__download-link {
+  filter: invert(1);
+}

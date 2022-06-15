@@ -1,0 +1,8 @@
+.readings__watch-link {
+  display: block;
+  margin-right: 15px;
+  width: 25px;
+  height: 25px;
+  background-image: url(../../../images/arrow-45.svg);
+  transition: filter .5s ease-out;
+}

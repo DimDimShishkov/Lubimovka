@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/FormularLight/formular-light.css);
 @import url(../vendor/NeueMachinaRegular/neue-machina-regular.css);
+@import url(../vendor/swiper/swiper-bundle.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -70,11 +71,29 @@
 @import url(../blocks/photos/__grid/photos__grid.css);
 @import url(../blocks/photos/__item/photos__item.css);
 
+@import url(../blocks//slider/slider.css);
+@import url(../blocks//slider/__title/slider__title.css);
+@import url(../blocks//slider/__points/slider__points.css);
+@import url(../blocks//slider/__point/slider__point.css);
+@import url(../blocks//slider/__point/_active/slider__point_active.css);
+@import url(../blocks//slider/__items/slider__items.css);
+@import url(../blocks//slider/__buttons/slider__buttons.css);
+@import url(../blocks//slider/__button/slider__button.css);
+@import url(../blocks//slider/__button/_type/button__slider_type_left.css);
+@import url(../blocks//slider/__button/_type/button__slider_type_right.css);
+@import url(../blocks//slider/__background/slider__background.css);
+
+@import url(../blocks/reviews/reviews.css);
+
+@import url(../blocks/review/review.css);
+
+@import url(../blocks/hidden/hidden.css);
 /* блок 8 */
 @import url(../blocks/largePhoto/largePhoto.css);
 @import url(../blocks/largePhoto/__img/largePhoto__img.css);
 
 .page {
+  box-sizing: border-box;
   background-color: #ecebe8;
   max-width: 1440px;
   min-width: 414px;
@@ -87,4 +106,3 @@
 .page_active {
   overflow-y: hidden;
 }
-

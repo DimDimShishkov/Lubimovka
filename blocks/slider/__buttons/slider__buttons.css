@@ -1,0 +1,15 @@
+.slider__buttons {
+  grid-row: 1;
+  grid-column: 6;
+  justify-self: end;
+  display: flex;
+  gap: 32px;
+}
+
+@media screen and (max-width: 950px) {
+  .slider__buttons {
+    grid-row: 1;
+    grid-column: 3;
+    justify-self: end;
+  }
+}

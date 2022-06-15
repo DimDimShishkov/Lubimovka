@@ -1,0 +1,15 @@
+.footer__list-block2-4 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 189px;
+  row-gap: 15px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0px 0px 0px 77px;
+  font-family: 'Formular', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #242424;
+}

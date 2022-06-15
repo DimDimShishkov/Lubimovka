@@ -25,6 +25,26 @@
 @import url(../blocks/photos/__item/photos__item.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo-lubimovka/footer__logo-lubimovka.css);
+@import url(../blocks/footer/__gen-path/footer__gen-path.css);
+@import url(../blocks/footer/__block1/footer__block1.css);
+@import url(../blocks/footer/__el-gen-path/footer__el-gen-path.css);
+@import url(../blocks/footer/__list-gen-path/footer__list-gen-path.css);
+@import url(../blocks/footer/__div-gen-path/footer__div-gen-path.css);
+@import url(../blocks/footer/__block2/footer__block2.css);
+@import url(../blocks/footer/__block2-1/footer__block2-1.css);
+@import url(../blocks/footer/__block2-2/footer__block2-2.css);
+@import url(../blocks/footer/__block2-3/footer__block2-3.css);
+@import url(../blocks/footer/__block2-4/footer__block2-4.css);
+@import url(../blocks/footer/__el-block2-2/footer__el-block2-2.css);
+@import url(../blocks/footer/__el-block2-3/footer__el-block2-3.css);
+@import url(../blocks/footer/__el-block2-4/footer__el-block2-4.css);
+@import url(../blocks/footer/__list-block2-2/footer__list-block2-2.css);
+@import url(../blocks/footer/__list-block2-3/footer__list-block2-3.css);
+@import url(../blocks/footer/__list-block2-4/footer__list-block2-4.css);
+@import url(../blocks/footer/__subtitle-block2-1/footer__subtitle-block2-1.css);
+@import url(../blocks/footer/__title-block2-1/footer__title-block2-1.css);
+
 
 .page {
   background-color: #ecebe8;

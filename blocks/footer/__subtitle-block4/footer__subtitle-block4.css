@@ -1,0 +1,14 @@
+.footer__subtitle-block4 {
+  font-family: 'Formular';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: 'ss01'on;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: block;
+  margin: 18.29px 0px 0px 0px;
+}

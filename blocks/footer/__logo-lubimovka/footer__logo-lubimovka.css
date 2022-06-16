@@ -7,3 +7,9 @@
   background-size: cover;
   margin: 42px 0px 0px 32px;
 }
+
+@media screen and (max-width: 415px) {
+  .footer__logo-lubimovka{
+    margin: 56px 0px 0px 58px;
+  }
+}

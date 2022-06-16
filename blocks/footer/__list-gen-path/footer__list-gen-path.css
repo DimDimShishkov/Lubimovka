@@ -4,5 +4,14 @@
   margin: 0;
   list-style-type: none;
   align-items: end;
+}
 
+@media screen and (max-width: 415px) {
+  .footer__list-gen-path{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 118.5px);
+    justify-items: center;
+    align-items: center;
+  }
 }

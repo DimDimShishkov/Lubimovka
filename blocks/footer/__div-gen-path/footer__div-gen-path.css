@@ -3,3 +3,9 @@
   align-items: end;
   margin: 48px 0px 0px 82px;
 }
+
+@media screen and (max-width: 415px) {
+  .footer__div-gen-path{
+    display: none;
+  }
+}

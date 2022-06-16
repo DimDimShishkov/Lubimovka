@@ -5,11 +5,20 @@
   row-gap: 15px;
   list-style-type: none;
   padding: 0;
-  margin: 0px 0px 0px 77px;
+  margin: 0px 115px 0px 77px;
   font-family: 'Formular', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
   color: #242424;
+}
+
+@media screen and (max-width: 415px) {
+  .footer__list-block2-4{
+    margin: 53px 0px 0px 0px;
+    font-size: 18px;
+    line-height: 23px;
+    font-feature-settings: 'ss01' on;
+  }
 }

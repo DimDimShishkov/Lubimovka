@@ -13,3 +13,14 @@
   line-height: 17px;
   color: #242424;
 }
+
+@media screen and (max-width: 415px) {
+  .footer__list-block2-3{
+    margin: 0px 0px 0px 0px;
+    font-size: 18px;
+    line-height: 23px;
+    font-feature-settings: 'ss01' on;
+    width: 126px;
+    row-gap: 13px;
+  }
+}

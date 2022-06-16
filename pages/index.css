@@ -53,6 +53,9 @@
 @import url(../blocks/footer/__title-design-block3/footer__title-design-block3.css);
 @import url(../blocks/footer/__block3-1/footer__block3-1.css);
 @import url(../blocks/footer/__block3-2/footer__block3-2.css);
+@import url(../blocks/footer/__pre-block2-2/footer__pre-block2-2.css);
+@import url(../blocks/footer/__block4/footer__block4.css);
+@import url(../blocks/footer/__subtitle-block4/footer__subtitle-block4.css);
 
 .page {
   background-color: #ecebe8;

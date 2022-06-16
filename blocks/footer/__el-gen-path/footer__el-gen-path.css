@@ -8,6 +8,9 @@
   margin: 0px 0px 0px 1px;
 }
 
+
+
+
 .footer__el-gen-path:nth-child(2) {
   background-image: url(../../../images/footer/footer_generalPartn_mosbrew.svg);
   width: 88px;
@@ -17,6 +20,8 @@
   background-size: cover;
   margin: 0px 0px 0px 31px;
 }
+
+
 
 .footer__el-gen-path:nth-child(3) {
   background-image: url(../../../images/footer/footer_generalPartn_sbtg.svg);
@@ -37,3 +42,5 @@
   background-size: cover;
   margin: 0px 0px 0px 26px;
 }
+
+@media screen and (max-width: 415px) {

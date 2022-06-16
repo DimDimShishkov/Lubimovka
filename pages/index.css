@@ -151,6 +151,7 @@
   color: #242424;
   display: flex;
   align-items: center;
+  outline: none;
 }
 
 .share__link-container:hover .share__link {
@@ -168,6 +169,7 @@
   border-bottom: 1px solid #242424;
   transform: translateZ(0);
   transition: all .5s ease;
+  outline: none;
 }
 
 .share__link-container:last-of-type {
@@ -210,6 +212,8 @@
   margin-top: 57px;
   margin-left: 25.13%;
   position: relative;
+  outline: none;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 650px) {

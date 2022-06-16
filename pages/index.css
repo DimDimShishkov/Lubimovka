@@ -44,7 +44,13 @@
 @import url(../blocks/footer/__list-block2-4/footer__list-block2-4.css);
 @import url(../blocks/footer/__subtitle-block2-1/footer__subtitle-block2-1.css);
 @import url(../blocks/footer/__title-block2-1/footer__title-block2-1.css);
-
+@import url(../blocks/footer/__block3/footer__block3.css);
+@import url(../blocks/footer/__copyright-block3/footer__copyright-block3.css);
+@import url(../blocks/footer/__design-block3/footer__design-block3.css);
+@import url(../blocks/footer/__develop-block3/footer__develop-block3.css);
+@import url(../blocks/footer/__logo-dedign-block3/footer__logo-dedign-block3.css);
+@import url(../blocks/footer/__privacy-policy-block3/footer__privacy-policy-block3.css);
+@import url(../blocks/footer/__title-design-block3/footer__title-design-block3.css);
 
 .page {
   background-color: #ecebe8;

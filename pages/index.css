@@ -106,3 +106,85 @@
 .page_active {
   overflow-y: hidden;
 }
+
+
+.share__title {
+  font-family: "Neue Machina";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 650px) {
+  .share__title {
+    margin-top: 5px;
+  }
+}
+
+.share__links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  position: absolute;
+  top: -11px;
+  left: 222px;
+}
+
+@media screen and (max-width: 650px) {
+  .share__links {
+    position: static;
+    margin-top: 10px;
+  }
+}
+
+.share__link {
+  font-family: "Formular";
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.14;
+  text-decoration: none;
+  color: #242424;
+  display: flex;
+  align-items: center;
+}
+
+.share__link-container {
+  min-width: 53px;
+  height: 24px;
+  padding: 0;
+  margin: 0 9px 0 0;
+  box-sizing: border-box;
+  border-left: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+}
+
+.share__link-container:last-of-type {
+  min-width: 62px;
+}
+
+.share__link-arrow {
+  width: 21px;
+  height: 20px;
+  margin: 0 4px 0 0;
+}
+
+.share__wrapper {
+  margin-top: 57px;
+  margin-left: 25.13%;
+  position: relative;
+}
+
+@media screen and (max-width: 650px) {
+  .share__wrapper {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 26px;
+    max-width: 200px;
+  }
+}
+

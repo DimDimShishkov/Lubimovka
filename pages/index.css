@@ -153,6 +153,11 @@
   align-items: center;
 }
 
+.share__link-container:hover .share__link {
+  filter: brightness(0) invert(1);
+  transition: all .5s ease;
+}
+
 .share__link-container {
   min-width: 53px;
   height: 24px;
@@ -161,10 +166,38 @@
   box-sizing: border-box;
   border-left: 1px solid #242424;
   border-bottom: 1px solid #242424;
+  transform: translateZ(0);
+  transition: all .5s ease;
 }
 
 .share__link-container:last-of-type {
   min-width: 62px;
+}
+
+.share__link-container::after {
+  background: #242424;
+  opacity: 1;
+  transition: all .5s ease;
+  content: "";
+	position: absolute;
+	z-index: -1;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+}
+
+.share__link-container:hover::after {
+  right: 0;
+}
+
+.share__link-container:active::after {
+  transform: scale(1.2);
+}
+
+.share__link-container:hover{
+  background: transparent;
+  transition: all .5s ease;
 }
 
 .share__link-arrow {
@@ -186,4 +219,5 @@
     max-width: 200px;
   }
 }
+
 

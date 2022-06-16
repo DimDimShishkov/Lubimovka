@@ -51,6 +51,8 @@
 @import url(../blocks/footer/__logo-dedign-block3/footer__logo-dedign-block3.css);
 @import url(../blocks/footer/__privacy-policy-block3/footer__privacy-policy-block3.css);
 @import url(../blocks/footer/__title-design-block3/footer__title-design-block3.css);
+@import url(../blocks/footer/__block3-1/footer__block3-1.css);
+@import url(../blocks/footer/__block3-2/footer__block3-2.css);
 
 .page {
   background-color: #ecebe8;

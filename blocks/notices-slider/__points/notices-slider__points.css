@@ -1,0 +1,14 @@
+.notices-slider__points {
+  grid-row: 1;
+  grid-column: 4;
+  display: flex;
+  gap: 16px;
+  min-width: 75px !important;
+  width: 100% !important;
+  position: relative;
+  align-self: center;
+  justify-self: center;
+  transform: translateX(0) !important;
+  left: 0 !important;
+  bottom: 0 !important;
+}

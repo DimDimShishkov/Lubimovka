@@ -1,0 +1,7 @@
+.notices-slider__buttons {
+  grid-row: 1;
+  grid-column: 6;
+  justify-self: end;
+  display: flex;
+  gap: 32px;
+}

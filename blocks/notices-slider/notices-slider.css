@@ -1,0 +1,9 @@
+.notices-slider {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr auto minmax(10px, 65px) auto 30px auto 1fr;
+  justify-items: center;
+  align-items: center;
+  row-gap: 40px;
+}

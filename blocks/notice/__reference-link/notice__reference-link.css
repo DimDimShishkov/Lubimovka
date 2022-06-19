@@ -1,0 +1,7 @@
+.notice__reference-link {
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin-right: 4px;
+  background-image: url(../../../images/arrow-45.svg);
+}

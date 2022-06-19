@@ -1,0 +1,9 @@
+.notice {
+  background-color: #fff;
+  padding: 55px 89px 72px 88px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100% !important;
+}

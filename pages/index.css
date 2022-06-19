@@ -92,6 +92,24 @@
 @import url(../blocks/largePhoto/largePhoto.css);
 @import url(../blocks/largePhoto/__img/largePhoto__img.css);
 
+
+/* Тестовый блок рецензий */
+
+@import url(../blocks/notices/notices.css);
+@import url(../blocks/notices-slider/notices-slider.css);
+@import url(../blocks/notices-slider/__title/notices-slider__title.css);
+@import url(../blocks/notices-slider/__points/notices-slider__points.css);
+@import url(../blocks/notices-slider/__buttons/notices-slider__buttons.css);
+@import url(../blocks/notices-slider/__background/notices-slider__background.css);
+@import url(../blocks/notices-slider/__items/notices-slider__items.css);
+
+@import url(../blocks/notice/notice.css);
+@import url(../blocks/notice/__logo/notice__logo.css);
+@import url(../blocks/notice/__text/notice__text.css);
+@import url(../blocks/notice/__reference/notice__reference.css);
+@import url(../blocks/notice/__reference-link/notice__reference-link.css);
+@import url(../blocks/notice/__reference-text/notice__reference-text.css);
+
 .page {
   box-sizing: border-box;
   background-color: #ecebe8;
@@ -181,9 +199,9 @@
   opacity: 1;
   transition: all .5s ease;
   content: "";
-	position: absolute;
-	z-index: -1;
-  top:0;
+  position: absolute;
+  z-index: -1;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 100%;
@@ -197,7 +215,7 @@
   transform: scale(1.2);
 }
 
-.share__link-container:hover{
+.share__link-container:hover {
   background: transparent;
   transition: all .5s ease;
 }
@@ -223,5 +241,3 @@
     max-width: 200px;
   }
 }
-
-

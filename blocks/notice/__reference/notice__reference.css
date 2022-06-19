@@ -1,0 +1,8 @@
+.notice__reference {
+  display: flex;
+  max-width: 210px;
+  max-height: 32px;
+  align-items: center;
+  border-left: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+}

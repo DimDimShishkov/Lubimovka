@@ -1,0 +1,6 @@
+.notices-slider__items {
+  box-sizing: border-box;
+  grid-row: 2;
+  grid-column: span 7;
+  width: 100% !important;
+}

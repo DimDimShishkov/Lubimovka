@@ -60,3 +60,31 @@ const swiper = new Swiper('.swiper', {
     }
   }
 })
+
+const noticeSwiper = new Swiper('.swiper', {
+  slidesPerView: 1,
+  spaceBetween: 0,
+  pagination: {
+    el: '.notices-slider__points',
+    clickable: true,
+    dynamicBullets: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.notices-slider__button_type_right',
+    prevEl: '.notices-slider__button_type_left',
+  },
+
+  breakpoints: {
+    // when window width is >= 320px
+    950: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+    1280: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    }
+  }
+})

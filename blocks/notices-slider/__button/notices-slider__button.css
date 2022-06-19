@@ -26,14 +26,3 @@
 .notices-slider__button:hover {
   animation: hover 0.2s ease-in calc(var(--time) - 0.1s) 1 forwards alternate;
 }
-
-@keyframes hover {
-  95% {
-    background-color: transparent;
-  }
-
-  100% {
-    background-color: #242424;
-    color: #fff;
-  }
-}

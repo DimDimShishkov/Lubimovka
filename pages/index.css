@@ -3,6 +3,9 @@
 @import url(../vendor/NeueMachinaRegular/neue-machina-regular.css);
 @import url(../vendor/swiper/swiper-bundle.css);
 
+
+
+/* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__container/header__container.css);
@@ -70,7 +73,30 @@
 @import url(../blocks/photos/__description/photos__description.css);
 @import url(../blocks/photos/__grid/photos__grid.css);
 @import url(../blocks/photos/__item/photos__item.css);
+@import url(../blocks//slider/slider.css);
+@import url(../blocks//slider/__title/slider__title.css);
+@import url(../blocks//slider/__points/slider__points.css);
+@import url(../blocks//slider/__point/slider__point.css);
+@import url(../blocks//slider/__point/_active/slider__point_active.css);
+@import url(../blocks//slider/__items/slider__items.css);
+@import url(../blocks//slider/__buttons/slider__buttons.css);
+@import url(../blocks//slider/__button/slider__button.css);
+@import url(../blocks//slider/__button/_type/button__slider_type_left.css);
+@import url(../blocks//slider/__button/_type/button__slider_type_right.css);
+@import url(../blocks//slider/__background/slider__background.css);
 
+/* Блок 6 */
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/review/review.css);
+
+/* Блок 7 */
+@import url(../blocks/hidden/hidden.css);
+
+/* блок 8 */
+@import url(../blocks/largePhoto/largePhoto.css);
+@import url(../blocks/largePhoto/__img/largePhoto__img.css);
+
+/* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo-lubimovka/footer__logo-lubimovka.css);
 @import url(../blocks/footer/__gen-path/footer__gen-path.css);
@@ -104,26 +130,6 @@
 @import url(../blocks/footer/__block4/footer__block4.css);
 @import url(../blocks/footer/__subtitle-block4/footer__subtitle-block4.css);
 
-@import url(../blocks//slider/slider.css);
-@import url(../blocks//slider/__title/slider__title.css);
-@import url(../blocks//slider/__points/slider__points.css);
-@import url(../blocks//slider/__point/slider__point.css);
-@import url(../blocks//slider/__point/_active/slider__point_active.css);
-@import url(../blocks//slider/__items/slider__items.css);
-@import url(../blocks//slider/__buttons/slider__buttons.css);
-@import url(../blocks//slider/__button/slider__button.css);
-@import url(../blocks//slider/__button/_type/button__slider_type_left.css);
-@import url(../blocks//slider/__button/_type/button__slider_type_right.css);
-@import url(../blocks//slider/__background/slider__background.css);
-
-@import url(../blocks/reviews/reviews.css);
-
-@import url(../blocks/review/review.css);
-
-@import url(../blocks/hidden/hidden.css);
-/* блок 8 */
-@import url(../blocks/largePhoto/largePhoto.css);
-@import url(../blocks/largePhoto/__img/largePhoto__img.css);
 
 .page {
   box-sizing: border-box;
@@ -139,7 +145,6 @@
 .page_active {
   overflow-y: hidden;
 }
-
 
 .share__title {
   font-family: "Neue Machina";
@@ -256,5 +261,4 @@
     max-width: 200px;
   }
 }
-
 

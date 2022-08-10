@@ -4,7 +4,13 @@
   margin: 48px 0px 0px 82px;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 1000px) {
+  .footer__div-gen-path{
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
   .footer__div-gen-path{
     display: none;
   }

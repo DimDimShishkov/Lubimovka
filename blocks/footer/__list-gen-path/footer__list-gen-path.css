@@ -6,7 +6,7 @@
   align-items: end;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 700px) {
   .footer__list-gen-path{
     display: grid;
     grid-template-columns: repeat(2, 1fr);

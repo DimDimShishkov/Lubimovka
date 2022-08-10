@@ -3,6 +3,13 @@
   align-items: flex-start;
 }
 
+@media screen and (max-width: 1000px) {
+  .footer__block1{
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
 @media screen and (max-width: 415px) {
   .footer__block1{
     display: block;

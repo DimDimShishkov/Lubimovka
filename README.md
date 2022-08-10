@@ -42,8 +42,6 @@
 * BEM Methodology
 * Animation and Transform using CSS
 * JavaScript (Asynchronous JS, OOP, DOM API, Fetch API)
-* Client-side form validation
-* 
 
 # Инструкция по копированию:
 

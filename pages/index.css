@@ -3,6 +3,9 @@
 @import url(../vendor/NeueMachinaRegular/neue-machina-regular.css);
 @import url(../vendor/swiper/swiper-bundle.css);
 
+
+
+/* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__container/header__container.css);
@@ -70,7 +73,6 @@
 @import url(../blocks/photos/__description/photos__description.css);
 @import url(../blocks/photos/__grid/photos__grid.css);
 @import url(../blocks/photos/__item/photos__item.css);
-
 @import url(../blocks//slider/slider.css);
 @import url(../blocks//slider/__title/slider__title.css);
 @import url(../blocks//slider/__points/slider__points.css);
@@ -83,14 +85,51 @@
 @import url(../blocks//slider/__button/_type/button__slider_type_right.css);
 @import url(../blocks//slider/__background/slider__background.css);
 
+/* Блок 6 */
 @import url(../blocks/reviews/reviews.css);
-
 @import url(../blocks/review/review.css);
 
+/* Блок 7 */
 @import url(../blocks/hidden/hidden.css);
+
 /* блок 8 */
 @import url(../blocks/largePhoto/largePhoto.css);
 @import url(../blocks/largePhoto/__img/largePhoto__img.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo-lubimovka/footer__logo-lubimovka.css);
+@import url(../blocks/footer/__gen-path/footer__gen-path.css);
+@import url(../blocks/footer/__block1/footer__block1.css);
+@import url(../blocks/footer/__el-gen-path/footer__el-gen-path.css);
+@import url(../blocks/footer/__list-gen-path/footer__list-gen-path.css);
+@import url(../blocks/footer/__div-gen-path/footer__div-gen-path.css);
+@import url(../blocks/footer/__block2/footer__block2.css);
+@import url(../blocks/footer/__block2-1/footer__block2-1.css);
+@import url(../blocks/footer/__block2-2/footer__block2-2.css);
+@import url(../blocks/footer/__block2-3/footer__block2-3.css);
+@import url(../blocks/footer/__block2-4/footer__block2-4.css);
+@import url(../blocks/footer/__el-block2-2/footer__el-block2-2.css);
+@import url(../blocks/footer/__el-block2-3/footer__el-block2-3.css);
+@import url(../blocks/footer/__el-block2-4/footer__el-block2-4.css);
+@import url(../blocks/footer/__list-block2-2/footer__list-block2-2.css);
+@import url(../blocks/footer/__list-block2-3/footer__list-block2-3.css);
+@import url(../blocks/footer/__list-block2-4/footer__list-block2-4.css);
+@import url(../blocks/footer/__subtitle-block2-1/footer__subtitle-block2-1.css);
+@import url(../blocks/footer/__title-block2-1/footer__title-block2-1.css);
+@import url(../blocks/footer/__block3/footer__block3.css);
+@import url(../blocks/footer/__copyright-block3/footer__copyright-block3.css);
+@import url(../blocks/footer/__design-block3/footer__design-block3.css);
+@import url(../blocks/footer/__develop-block3/footer__develop-block3.css);
+@import url(../blocks/footer/__logo-dedign-block3/footer__logo-dedign-block3.css);
+@import url(../blocks/footer/__privacy-policy-block3/footer__privacy-policy-block3.css);
+@import url(../blocks/footer/__title-design-block3/footer__title-design-block3.css);
+@import url(../blocks/footer/__block3-1/footer__block3-1.css);
+@import url(../blocks/footer/__block3-2/footer__block3-2.css);
+@import url(../blocks/footer/__pre-block2-2/footer__pre-block2-2.css);
+@import url(../blocks/footer/__block4/footer__block4.css);
+@import url(../blocks/footer/__subtitle-block4/footer__subtitle-block4.css);
+
 
 .page {
   box-sizing: border-box;
@@ -106,7 +145,6 @@
 .page_active {
   overflow-y: hidden;
 }
-
 
 .share__title {
   font-family: "Neue Machina";
@@ -223,5 +261,4 @@
     max-width: 200px;
   }
 }
-
 

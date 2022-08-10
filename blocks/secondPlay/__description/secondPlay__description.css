@@ -1,0 +1,13 @@
+.secondPlay__description {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+  .secondPlay__description {
+    max-width: 100%;
+    width: 100vw;
+    padding: 24px 24px;
+    box-sizing: border-box;
+  }
+}

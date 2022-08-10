@@ -1,0 +1,13 @@
+.slider__items {
+  box-sizing: border-box;
+  grid-row: 2;
+  grid-column: span 7;
+  width: 100% !important;
+}
+
+@media screen and (max-width: 950px) {
+  .slider__items {
+    grid-row: 3;
+    grid-column: 2 / span 2;
+  }
+}

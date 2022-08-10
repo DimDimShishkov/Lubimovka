@@ -1,0 +1,48 @@
+@keyframes circle-left {
+  to {
+    transform: rotate(-135deg);
+  }
+}
+
+.slider__button_type_left {}
+
+.slider__button_type_left::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--w);
+  height: var(--h);
+  border: 1px solid #242424;
+  box-sizing: border-box;
+  border-top-left-radius: var(--h);
+  border-bottom-left-radius: var(--h);
+  border-right-color: transparent;
+  border-top-color: transparent;
+  overflow: hidden;
+  border-radius: 50%;
+  transform: rotate(45deg);
+}
+
+.slider__button_type_left::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--w);
+  height: var(--h);
+  border: 1px solid #242424;
+  box-sizing: border-box;
+  border-top-left-radius: var(--h);
+  border-bottom-left-radius: var(--h);
+  border-right-color: transparent;
+  border-top-color: transparent;
+  overflow: hidden;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.slider__button_type_left:hover::after {
+  animation: circle-left var(--time) ease 1 forwards;
+}

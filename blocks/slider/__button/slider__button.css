@@ -1,0 +1,39 @@
+.slider__button {
+  --color: #242424;
+  --w: 48px;
+  --h: 48px;
+  --time: 0.5s;
+  width: var(--w);
+  height: var(--h);
+  background: transparent;
+  box-sizing: border-box;
+  color: #242424;
+  font-size: 24px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  transition: transform 0.4s ease;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.slider__button:active {
+  transform: scale(1.1);
+}
+
+.slider__button:hover {
+  animation: hover 0.2s ease-in calc(var(--time) - 0.1s) 1 forwards alternate;
+}
+
+@keyframes hover {
+  95% {
+    background-color: transparent;
+  }
+
+  100% {
+    background-color: #242424;
+    color: #fff;
+  }
+}

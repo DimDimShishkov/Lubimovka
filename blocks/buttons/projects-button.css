@@ -1,0 +1,8 @@
+@media screen and (max-width: 950px) {
+  .projects-button {
+    margin-top: 31px;
+    position: absolute;
+    top: 0;
+    left: 56px;
+  }
+}

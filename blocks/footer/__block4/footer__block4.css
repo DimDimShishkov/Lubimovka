@@ -1,0 +1,12 @@
+.footer__block4 {
+  display: none;
+}
+
+@media screen and (max-width: 415px) {
+  .footer__block4{
+    display: block;
+    width: 366px;
+    margin: 56px auto 0px;
+ 
+  }
+}

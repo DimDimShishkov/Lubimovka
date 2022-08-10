@@ -1,0 +1,18 @@
+.footer__block2{
+  display: flex;
+  margin: 21.64px 0px 0px 210px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1050px) {
+  .footer__block2{
+    margin: 21.64px 0px 0px 32px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .footer__block2{
+    margin: 32.64px 0px 0px 55px;
+    display: block;
+  }
+}

@@ -1,0 +1,14 @@
+.footer__pre-block2-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 415px) {
+  .footer__pre-block2-2{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 278px;
+    margin: 56px 0px 0px 0px;
+  }
+}

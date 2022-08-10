@@ -1,0 +1,10 @@
+.footer__block1 {
+  display: flex;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 415px) {
+  .footer__block1{
+    display: block;
+  }
+}

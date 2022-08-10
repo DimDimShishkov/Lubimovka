@@ -1,0 +1,37 @@
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 950px) {
+  .header__nav {
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    background-color: #b7c09d;
+    height: 100vh;
+    padding: 20px 20px 0;
+    margin: 0;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .header__nav {
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    background-color: #b7c09d;
+    height: 100vh;
+    padding: 20px 20px 0;
+    margin: 0;
+    overflow-y: scroll;
+    min-width: auto;
+  }
+}

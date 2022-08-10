@@ -1,0 +1,17 @@
+.readings__container {
+  width: 240px;
+  min-height: 412px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #B7C09D;
+  outline: none;
+}
+
+@media screen and (max-width: 800px) {
+  .readings__container {
+    margin-top: 32px;
+    width: 244px;
+    min-height: 441px;
+  }
+}

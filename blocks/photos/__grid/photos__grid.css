@@ -1,0 +1,16 @@
+.photos__grid {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+  gap: 1px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+  .photos__grid {
+    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+    gap: 2px 3px;
+  }
+}

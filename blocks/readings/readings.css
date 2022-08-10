@@ -1,0 +1,23 @@
+.readings {
+  margin-top: 80px;
+  margin-left: 50%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+  .readings {
+    margin: 100px 85px 0 85px;
+    outline: none;
+  }
+
+  .readings::before {
+    content: "Почитать пьесу";
+    display: block;
+    font-family: 'Neue Machina';
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 1.14;
+    text-transform: none;
+    margin-left: -61px;
+  }
+}

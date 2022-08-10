@@ -1,0 +1,16 @@
+.header__container {
+  margin-left: auto;
+  min-width: 92%;
+}
+
+@media screen and (max-width: 950px) {
+  .header__container {
+    margin: 0;
+    min-width: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+}

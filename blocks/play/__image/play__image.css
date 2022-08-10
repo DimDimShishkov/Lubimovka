@@ -1,0 +1,12 @@
+.play__image {
+  object-fit: cover;
+  width: 50%;
+  max-height: 614px;
+}
+
+@media screen and (max-width: 800px) {
+  .play__image {
+    width: 100%;
+    height: 450px;
+  }
+}

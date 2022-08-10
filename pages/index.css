@@ -1,73 +1,264 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/FormularLight/formular-light.css);
 @import url(../vendor/NeueMachinaRegular/neue-machina-regular.css);
+@import url(../vendor/swiper/swiper-bundle.css);
+
+
+
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__container/_active/header__container_active.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__nav/_selected/header__nav_selected.css);
+@import url(../blocks/header/__mobile/header__mobile.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu/_selected/header__menu_selected.css);
+@import url(../blocks/header/__items/header__items.css);
+@import url(../blocks/header/__items-navigation/header__items-navigation.css);
+@import url(../blocks/header/__items-social/header__items-social.css);
+@import url(../blocks/header/__item/header__item.css);
+@import url(../blocks/header/__social-item/header__social-item.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__support-link/header__support-link.css);
+
+@import url(../blocks/link-button/link-button.css);
+@import url(../blocks/buttons/projects-button.css);
+@import url(../blocks/buttons/button-arrow_left.css);
+@import url(../blocks/buttons/order-btn.css);
+@import url(../blocks/buttons/order-btn__image.css);
+
+/* Блок 1-2*/
+@import url(../blocks/play/play.css);
+@import url(../blocks/about-play/about-play.css);
+@import url(../blocks/about-play/__title/about-play__title.css);
+@import url(../blocks/about-play/__subtitle/about-play__subtitle.css);
+@import url(../blocks/about-play/__time/about-play__time.css);
+@import url(../blocks/play/__image/play__image.css);
+@import url(../blocks/play/__description/play__description.css);
+
+/* Блок 3 */
+@import url(../blocks/secondPlay/secondPlay.css);
+@import url(../blocks/secondPlay/__time/secondPlay__time.css);
+@import url(../blocks/secondPlay/__person/secondPlay__person.css);
+@import url(../blocks/secondPlay/__person/type/secondPlay__person_type_title.css);
+@import url(../blocks/secondPlay/__person/type/secondPlay__person_type_name.css);
+@import url(../blocks/secondPlay/__description/secondPlay__description.css);
+@import url(../blocks/secondPlay/__description-para/secondPlay__description-para.css);
+@import url(../blocks/secondPlay/__video/secondPlay__video.css);
+@import url(../blocks/secondPlay/__video-wrapper/secondPlay__video-wrapper.css);
+@import url(../blocks/secondPlay/__info/secondPlay__info.css);
+@import url(../blocks/secondPlay/__people/secondPlay__people.css);
+@import url(../blocks/secondPlay/__description-items/secondPlay__description-items.css);
+@import url(../blocks/secondPlay/__description-item/secondPlay__description-item.css);
+@import url(../blocks/secondPlay/__description-title/secondPlay__description-title.css);
+
+/* Блок 4 */
+@import url(../blocks/readings/readings.css);
+@import url(../blocks/readings/__container/readings__container.css);
+@import url(../blocks/readings/__play/readings__play.css);
+@import url(../blocks/readings/__watch/readings__watch.css);
+@import url(../blocks/readings/__watch/_visible/readings__watch_visible.css);
+@import url(../blocks/readings/__download/readings__download.css);
+@import url(../blocks/readings/__download/_visible/readings__download_visible.css);
+@import url(../blocks/readings/__name-container/readings__name-container.css);
+@import url(../blocks/readings/__name/readings__name.css);
+@import url(../blocks/readings/__city-year/readings__city-year.css);
+@import url(../blocks/readings/__watch-link/readings__watch-link.css);
+@import url(../blocks/readings/__download-link/readings__download-link.css);
+
+/* Блок 5 */
+@import url(../blocks/photos/photos.css);
+@import url(../blocks/photos/__description/photos__description.css);
+@import url(../blocks/photos/__grid/photos__grid.css);
+@import url(../blocks/photos/__item/photos__item.css);
+@import url(../blocks//slider/slider.css);
+@import url(../blocks//slider/__title/slider__title.css);
+@import url(../blocks//slider/__points/slider__points.css);
+@import url(../blocks//slider/__point/slider__point.css);
+@import url(../blocks//slider/__point/_active/slider__point_active.css);
+@import url(../blocks//slider/__items/slider__items.css);
+@import url(../blocks//slider/__buttons/slider__buttons.css);
+@import url(../blocks//slider/__button/slider__button.css);
+@import url(../blocks//slider/__button/_type/button__slider_type_left.css);
+@import url(../blocks//slider/__button/_type/button__slider_type_right.css);
+@import url(../blocks//slider/__background/slider__background.css);
+
+/* Блок 6 */
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/review/review.css);
+
+/* Блок 7 */
+@import url(../blocks/hidden/hidden.css);
+
+/* блок 8 */
+@import url(../blocks/largePhoto/largePhoto.css);
+@import url(../blocks/largePhoto/__img/largePhoto__img.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo-lubimovka/footer__logo-lubimovka.css);
+@import url(../blocks/footer/__gen-path/footer__gen-path.css);
+@import url(../blocks/footer/__block1/footer__block1.css);
+@import url(../blocks/footer/__el-gen-path/footer__el-gen-path.css);
+@import url(../blocks/footer/__list-gen-path/footer__list-gen-path.css);
+@import url(../blocks/footer/__div-gen-path/footer__div-gen-path.css);
+@import url(../blocks/footer/__block2/footer__block2.css);
+@import url(../blocks/footer/__block2-1/footer__block2-1.css);
+@import url(../blocks/footer/__block2-2/footer__block2-2.css);
+@import url(../blocks/footer/__block2-3/footer__block2-3.css);
+@import url(../blocks/footer/__block2-4/footer__block2-4.css);
+@import url(../blocks/footer/__el-block2-2/footer__el-block2-2.css);
+@import url(../blocks/footer/__el-block2-3/footer__el-block2-3.css);
+@import url(../blocks/footer/__el-block2-4/footer__el-block2-4.css);
+@import url(../blocks/footer/__list-block2-2/footer__list-block2-2.css);
+@import url(../blocks/footer/__list-block2-3/footer__list-block2-3.css);
+@import url(../blocks/footer/__list-block2-4/footer__list-block2-4.css);
+@import url(../blocks/footer/__subtitle-block2-1/footer__subtitle-block2-1.css);
+@import url(../blocks/footer/__title-block2-1/footer__title-block2-1.css);
+@import url(../blocks/footer/__block3/footer__block3.css);
+@import url(../blocks/footer/__copyright-block3/footer__copyright-block3.css);
+@import url(../blocks/footer/__design-block3/footer__design-block3.css);
+@import url(../blocks/footer/__develop-block3/footer__develop-block3.css);
+@import url(../blocks/footer/__logo-dedign-block3/footer__logo-dedign-block3.css);
+@import url(../blocks/footer/__privacy-policy-block3/footer__privacy-policy-block3.css);
+@import url(../blocks/footer/__title-design-block3/footer__title-design-block3.css);
+@import url(../blocks/footer/__block3-1/footer__block3-1.css);
+@import url(../blocks/footer/__block3-2/footer__block3-2.css);
+@import url(../blocks/footer/__pre-block2-2/footer__pre-block2-2.css);
+@import url(../blocks/footer/__block4/footer__block4.css);
+@import url(../blocks/footer/__subtitle-block4/footer__subtitle-block4.css);
+
 
 .page {
+  box-sizing: border-box;
   background-color: #ecebe8;
   max-width: 1440px;
   min-width: 414px;
   margin: 0 auto;
   padding: 0;
+  color: #242424;
+  position: relative;
 }
 
-.photos {
-  padding: 144px 0 0;
-  margin: 0;
+.page_active {
+  overflow-y: hidden;
 }
 
-.photos__description {
-  white-space: pre;
+.share__title {
   font-family: "Neue Machina";
-  font-style: normal;
-  font-weight: 400;
   font-size: 40px;
-  line-height: 40px;
+  font-weight: 400;
+  line-height: 100%;
   letter-spacing: -0.01em;
-  margin: 0 0 40px 362px;
-  padding: 0;
-}
-
-@media screen and (max-width: 1440px) {
-  .photos__description {
-    margin: 0 0 40px 25vw;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .photos__description {
-    font-size: 28px;
-    line-height: 32px;
-    letter-spacing: -0.01em;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .photos__description {
-    margin: 0 0 22px 24px;
-    white-space: normal;
-    max-width: 350px;
-  }
-}
-
-.photos__grid {
   padding: 0;
   margin: 0;
-  display: grid;
-  grid-template: repeat(3, 1fr) / repeat(4, 1fr);
-  gap: 1px;
-  width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+  .share__title {
+    margin-top: 5px;
+  }
+}
+
+.share__links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  position: absolute;
+  top: -11px;
+  left: 222px;
+}
+
+@media screen and (max-width: 650px) {
+  .share__links {
+    position: static;
+    margin-top: 10px;
+  }
+}
+
+.share__link {
+  font-family: "Formular";
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.14;
+  text-decoration: none;
+  color: #242424;
+  display: flex;
+  align-items: center;
+  outline: none;
+}
+
+.share__link-container:hover .share__link {
+  filter: brightness(0) invert(1);
+  transition: all .5s ease;
+}
+
+.share__link-container {
+  min-width: 53px;
+  height: 24px;
+  padding: 0;
+  margin: 0 9px 0 0;
+  box-sizing: border-box;
+  border-left: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  transform: translateZ(0);
+  transition: all .5s ease;
+  outline: none;
+}
+
+.share__link-container:last-of-type {
+  min-width: 62px;
+}
+
+.share__link-container::after {
+  background: #242424;
+  opacity: 1;
+  transition: all .5s ease;
+  content: "";
+	position: absolute;
+	z-index: -1;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+}
+
+.share__link-container:hover::after {
+  right: 0;
+}
+
+.share__link-container:active::after {
+  transform: scale(1.2);
+}
+
+.share__link-container:hover{
+  background: transparent;
+  transition: all .5s ease;
+}
+
+.share__link-arrow {
+  width: 21px;
+  height: 20px;
+  margin: 0 4px 0 0;
+}
+
+.share__wrapper {
+  margin-top: 57px;
+  margin-left: 25.13%;
+  position: relative;
+  outline: none;
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 800px) {
-  .photos__grid {
-    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
-    gap: 2px 3px;
+@media screen and (max-width: 650px) {
+  .share__wrapper {
+    margin-top: 20px;
+    margin-left: 26px;
+    max-width: 200px;
   }
 }
-
-.photos__item {
-  width: 100%;
-}
-
 

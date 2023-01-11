@@ -1,0 +1,26 @@
+.secondPlay__info {
+  padding-left: 12.66vw;
+  margin-right: 20px;
+  max-width: 40%;
+}
+
+@media screen and (max-width: 1200px) {
+  .secondPlay__info {
+    padding-left: 10vw;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .secondPlay__info {
+    padding-left: 6%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .secondPlay__info {
+    background-color: #fff;
+    max-width: 100%;
+    padding: 58px 20px 72px 27px;
+    margin: 0;
+  }
+}

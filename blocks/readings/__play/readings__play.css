@@ -1,0 +1,22 @@
+.readings__play {
+  background-color: #B7C09D;
+  height: 187px;
+  font-family: "Neue Machina";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -1%;
+  padding: 24px 0 0 24px;
+  box-sizing: border-box;
+}
+
+.readings__play:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .readings__play {
+    height: 230px;
+    padding-top: 16px;
+  }
+}

@@ -1,0 +1,17 @@
+.secondPlay {
+  padding: 0;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  .secondPlay {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+  }
+}

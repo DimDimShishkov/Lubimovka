@@ -1,0 +1,19 @@
+.footer__subtitle-block2-1 {
+  font-family: 'Formular', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #242424;
+  padding: 0;
+  margin: 16px 0px 0px 0px;
+  width: 231px;
+}
+
+@media screen and (max-width: 415px) {
+  .footer__subtitle-block2-1{
+    line-height: 22px;
+    opacity: 0.6;
+    margin: 8px 0px 0px 0px;
+  }
+}

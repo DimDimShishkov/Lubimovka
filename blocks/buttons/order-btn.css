@@ -1,0 +1,23 @@
+.order-btn {
+  width: 240px;
+  height: 56px;
+  outline: none;
+  border: 1px solid #000000;
+  margin-top: 20px;
+  font-family: "Formular", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 16px 18px 16px;
+  background-color: #ecebe8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .order-btn {
+    margin: 20px auto 0;
+  }
+}

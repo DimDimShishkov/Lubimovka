@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Лендинг для фестиваля “Любимовка”</title>
+  </head>
+
+  <body class="page">
+    <header class="header">
+      <img src="./images/Group.svg" alt="logo" class="header__logo" />
+      <div class="header__container">
+        <nav class="header__nav">
+          <ul class="header__items header__items-navigation">
+            <li class="header__item">
+              <a href="#" class="header__link">Афиша</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Библиотека</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Проекты</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">История</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Блог</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Новости</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">О фестивале</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Контакты</a>
+            </li>
+          </ul>
+          <ul class="header__items header__items-social">
+            <li class="header__social-item">
+              <a href="#" class="header__link">fb</a>
+            </li>
+            <li class="header__social-item">
+              <a href="#" class="header__link">inst</a>
+            </li>
+            <li class="header__social-item">
+              <a href="#" class="header__link">ytube</a>
+            </li>
+            <li class="header__social-item">
+              <a href="#" class="header__link">tlgrm</a>
+            </li>
+            <li class="header__social-item">
+              <a href="#" class="header__link">vk</a>
+            </li>
+          </ul>
+          <a href="#" class="header__link header__support-link"> <img src="./images/plus.svg" alt="support" class="header__support-image" /> ПОДДЕРЖАТЬ</a>
+        </nav>
+      </div>
+
+      <button class="header__mobile">
+        <span class="header__menu"></span>
+      </button>
+    </header>
+
+    <main class="main">
+      <button type="button" class="link-button projects-button">
+        Проекты
+        <img src="./images/arrow-left.svg" alt="вернуться к проектам" class="button-arrow_left" />
+      </button>
+
+      <section class="play">
+        <div class="about-play">
+          <h1 class="about-play__title">С_училища</h1>
+          <p class="about-play__subtitle">Пьеса о демоническом обаянии студентки ПТУ и ее роковой роли в жизни преподавателя философии.</p>
+          <p class="about-play__time">12 мая 20:00</p>
+          <button class="order-btn">
+            билеты
+            <a href="#">
+              <img src="./images/arrow-right.svg" alt="Переход по ссылке" class="order-btn__image" />
+            </a>
+          </button>
+        </div>
+
+        <img src="./images/about-play-img.jpg" alt="Обложка пьесы" class="play__image" />
+      </section>
+
+      <article class="play__description">
+        Семён Серзин сделал читку этой пьесы в рамках основной программы Любимовки-2017, Варочный Цех предоставил грант на постановку, а Московский драматический театр имени А.С.
+        Пушкина принял спектакль в репертуар.
+      </article>
+
+      <article class="secondPlay" aria-label="Пьеса Длань Господня">
+        <section class="secondPlay__info" aria-label="Информация о пьесе Длань Господня">
+          <p class="secondPlay__time">1 ч. 15 мин. | 18+</p>
+          <ul class="secondPlay__people">
+            <li class="secondPlay__person">
+              <h3 class="secondPlay__person_type_title">Драматург</h3>
+              <p class="secondPlay__person_type_name">Роберт Аскинс</p>
+            </li>
+            <li class="secondPlay__person">
+              <h3 class="secondPlay__person_type_title">Перевод</h3>
+              <p class="secondPlay__person_type_name">Оксана Алёшина</p>
+            </li>
+            <li class="secondPlay__person">
+              <h3 class="secondPlay__person_type_title">Адаптация текста</h3>
+              <p class="secondPlay__person_type_name">Валерий Печейкин</p>
+            </li>
+            <li class="secondPlay__person">
+              <h3 class="secondPlay__person_type_title">Режиссёр</h3>
+              <p class="secondPlay__person_type_name">Юрий Муравицкий</p>
+            </li>
+            <li class="secondPlay__person">
+              <h3 class="secondPlay__person_type_title">Актёры</h3>
+              <p class="secondPlay__person_type_name">Фёдор Кокорев, Коля Ноекёльн, Ксения Чекина, Александр Пронькин, Владимир Морозов, Светлана Маршанкина</p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="secondPlay__description">
+          <div class="secondPlay__video-wrapper">
+            <iframe class="secondPlay__video" src="https://www.youtube.com/embed/juq_3oRQ6yc?start=50?s=6000" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+          <ul class="secondPlay__description-items">
+            <li class="secondPlay__description-item">
+              <p class="secondPlay__description-title">
+                Пьеса «Длань Господня» (Hand to God) — лауреат американской театральной премии OBIE (Off-Broadway Theater Awards), номинант ежегодно присуждаемой премии TONY
+                (Theatre Of New York), театрального аналога «Оскара», и номинант на Британскую премию Лоуренса Оливье в качестве «Лучшей Новой Комедии». Она была поставлена в
+                бродвейских театрах и в лондонском Вест-Энде.
+              </p>
+            </li>
+            <li class="secondPlay__description-item">
+              <p class="secondPlay__description-title">
+                Этот спектакль – результат коллаборации фестиваля драматургии «Любимовка», который запустил проект по выпуску собственных спектаклей «Любимовка.Продакшн», Театра
+                18+ и Театра.doc. Исполнители – выпускники актерской лаборатории Юрия Муравицкого Московской Школы Нового Кино.
+              </p>
+            </li>
+            <li class="secondPlay__description-item">
+              <p class="secondPlay__description-title">
+                Режиссёр спектакля Юрий Муравицкий – лауреат Национальной театральной премии «Золотая маска», лауреат премий Herald Angel Award и Total Theatre Award в номинации
+                Innovation, Experimentation & Playing with Form на Edinburgh Festival Fringe: «В этой пьесе меня задевает её смелость и свобода. И то, что она написана смешно. Мне
+                сейчас интересны комедии. В январе я выпустил «Lё Тартюф. Комедия» в театре на Таганке — тоже комедию и тоже в известном смысле антиклерикальную. У меня есть
+                стойкое ощущение что всему, что сейчас происходит в нашей стране и в мире, мы можем противопоставить только смех. Иногда горький смех, иногда злой. Сейчас в воздухе
+                столько ненависти, что нам всем полезно больше смеяться. И над собой в том числе. «Длань Господня» — это чёрная комедия. Помимо прочего, она показывает к чему
+                приводит навязывание и насильственное насаждение религии».
+              </p>
+            </li>
+            <li class="secondPlay__description-item">
+              <p class="secondPlay__description-title">
+                Пьеса была успешно представлена в России в формате читки в 2016 году рамках лаборатории LARK+Любимовка на сцене Центра им. Мейерхольда.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <section class="readings">
+        <div class="readings__container">
+          <div class="readings__play">С_училища</div>
+          <div class="readings__watch">
+            <p class="readings__watch-text">смотреть читку</p>
+            <a class="readings__watch-link" href="#"> </a>
+          </div>
+          <div class="readings__download">
+            <p class="readings__download-text">скачать пьесу</p>
+            <a class="readings__download-link" href="#"> </a>
+          </div>
+          <div class="readings__name-container">
+            <span class="readings__name">Андрей Иванов</span>
+          </div>
+          <p class="readings__city-year">Санкт-Петербург 2020</p>
+        </div>
+      </section>
+
+      <section class="photos">
+        <h4 class="photos__description">Заголовок блока с фотографиями</h4>
+        <div class="photos__grid">
+          <img src="./images/Rectangle 193 (1).jpg" alt="Solnechnaya-liniya-Kraeva" class="photos__item" />
+          <img src="./images/Rectangle 194 (1).jpg" alt="image" class="photos__item" />
+          <img src="./images/Rectangle 158 (1).jpg" alt="pexels-cottonbro" class="photos__item" />
+          <img src="./images/Rectangle 160 (1).jpg" alt="rehearsal" class="photos__item" />
+          <img src="./images/Rectangle 196 (1).jpg" alt="theater performance" class="photos__item" />
+          <img src="./images/Rectangle 197 (1).jpg" alt="script reading" class="photos__item" />
+          <img src="./images/Rectangle 195 (1).jpg" alt="orchestra" class="photos__item" />
+          <img src="./images/Rectangle 198 (1).jpg" alt="lady" class="photos__item" />
+        </div>
+      </section>
+
+      <section class="reviews">
+        <div class="swiper slider">
+          <h2 class="slider__title">Отзывы зрителей</h2>
+          <div class="slider__points"></div>
+          <div class="slider__buttons">
+            <div class="slider__button slider__button_type_left">&larr;</div>
+            <div class="slider__button slider__button_type_right">&rarr;</div>
+          </div>
+          <div class="slider__background"></div>
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper slider__items">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="review">
+                <p class="review__text">
+                  Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка возникает — я думаю, и пьеса написана с этой интонацией американских взрослых
+                  мультсериалов. И как хорошо все это с куклой-носочком. Так все чисто сделано!
+                </p>
+                <span class="review__author">Наталья Зайцева</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="review">
+                <p class="review__text">Для самой этой истории формат читки работает отличным ироническим отстранением</p>
+                <span class="review__author">Дина Годер</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="review">
+                <p class="review__text">
+                  Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на нем надето, какую машину он водит, и что за плакат висит в подвале церкви. Это
+                  было приятно, ведь я как будто сама поучаствовала в спектакле
+                </p>
+                <span class="review__author">Дарья Морозова</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="review">
+                <p class="review__text">
+                  Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка возникает — я думаю, и пьеса написана с этой интонацией американских взрослых
+                  мультсериалов. И как хорошо все это с куклой-носочком. Так все чисто сделано!
+                </p>
+                <span class="review__author">Наталья Зайцева</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="largePhoto">
+        <img class="largePhoto__img" src="./images/Rectangle 203 (1).jpg" alt="Фотография двух актёров" />
+      </section>
+
+      <section class="share">
+        <div class="share__wrapper">
+          <p class="share__title">Рассказать</p>
+          <ul class="share__links">
+            <li class="share__link-container">
+              <a class="share__link" href="#" target="_blank">
+                <svg class="share__link-arrow">
+                  <path
+                    d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"
+                    fill="#242424"
+                  />
+                </svg>
+                <span class="share__link-text">fb</span>
+              </a>
+            </li>
+            <li class="share__link-container">
+              <a class="share__link" href="#" target="_blank">
+                <svg class="share__link-arrow">
+                  <path
+                    d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"
+                    fill="#242424"
+                  />
+                </svg>
+                <span class="share__link-text">vk</span>
+              </a>
+            </li>
+            <li class="share__link-container">
+              <a class="share__link" href="#" target="_blank">
+                <svg class="share__link-arrow">
+                  <path
+                    d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"
+                    fill="#242424"
+                  />
+                </svg>
+                <span class="share__link-text">twtr</span>
+              </a>
+            </li>
+          </ul>
+          <p class="share__title">о&nbsp;спектакле в&nbsp;соцсетях</p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__block1">
+        <a href="#" class="footer__logo-lubimovka"></a>
+        <div class="footer__div-gen-path">
+          <h2 class="footer__gen-path">Генеральные партнёры</h2>
+          <!-- переделай в спаны -->
+          <ul class="footer__list-gen-path">
+            <li class="footer__el-gen-path"></li>
+            <li class="footer__el-gen-path"></li>
+            <li class="footer__el-gen-path"></li>
+            <li class="footer__el-gen-path"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__block2">
+        <div class="footer__block2-1">
+          <h2 class="footer__title-block2-1">Площадка «8/3»</h2>
+          <p class="footer__subtitle-block2-1">Москва, ул. Казакова, 8, стр. 3 Метро «Курская»</p>
+        </div>
+        <div class="footer__pre-block2-2">
+          <div class="footer__block2-2">
+            <ul class="footer__list-block2-2">
+              <li><a href="#" class="footer__el-block2-2">Любимовка</a></li>
+              <li><a href="#" class="footer__el-block2-2">Афиша</a></li>
+              <li><a href="#" class="footer__el-block2-2">Библиотека</a></li>
+              <li><a href="#" class="footer__el-block2-2">Блог</a></li>
+              <li><a href="#" class="footer__el-block2-2">Новости</a></li>
+            </ul>
+          </div>
+          <div class="footer__block2-3">
+            <ul class="footer__list-block2-3">
+              <li><a href="#" class="footer__el-block2-3">О фестивале</a></li>
+              <li><a href="#" class="footer__el-block2-3">Организаторы</a></li>
+              <li><a href="#" class="footer__el-block2-3">История</a></li>
+              <li><a href="#" class="footer__el-block2-3">Контакты</a></li>
+              <li><a href="#" class="footer__el-block2-3">Для прессы</a></li>
+            </ul>
+          </div>
+          <div class="footer__block2-4">
+            <ul class="footer__list-block2-4">
+              <li><a href="#" class="footer__el-block2-4">Все проекты</a></li>
+              <li><a href="#" class="footer__el-block2-4">Любимовка.Ещё</a></li>
+              <li><a href="#" class="footer__el-block2-4">Спектакли</a></li>
+              <li><a href="#" class="footer__el-block2-4">Сборник Любимовка.Пьесы</a></li>
+              <li><a href="#" class="footer__el-block2-4">Lark+Любимовка</a></li>
+              <li><a href="#" class="footer__el-block2-4">Практика постдраматурга</a></li>
+              <li><a href="#" class="footer__el-block2-4">Эхо Любимовки</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__block4">
+        <ul class="footer__list-gen-path">
+          <li class="footer__el-gen-path"></li>
+          <li class="footer__el-gen-path"></li>
+          <li class="footer__el-gen-path"></li>
+          <li class="footer__el-gen-path"></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script defer src="./scripts/index.js" type="module"></script>
+    <script src="./scripts/readings.js"></script>
+  </body>
+</html>

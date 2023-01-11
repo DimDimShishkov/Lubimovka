@@ -1,0 +1,10 @@
+.header__items-navigation {
+  padding: 9px 0 19px;
+}
+
+@media screen and (max-width: 950px) {
+  .header__items-navigation {
+    padding: 0;
+    border-bottom: 1px solid #242424;
+  }
+}

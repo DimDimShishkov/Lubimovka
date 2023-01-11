@@ -1,0 +1,19 @@
+.slider {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr auto minmax(10px, 65px) auto 30px auto 1fr;
+  justify-items: center;
+  align-items: center;
+  row-gap: 56px;
+}
+
+
+@media screen and (max-width: 950px) {
+  .slider {
+    grid-template-columns: 24px 1fr auto 24px;
+    grid-template-rows: auto auto auto;
+    max-width: 100%;
+    row-gap: 24px;
+  }
+}

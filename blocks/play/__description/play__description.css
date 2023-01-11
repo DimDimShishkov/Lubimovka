@@ -1,0 +1,25 @@
+.play__description {
+  font-family: "Neue Machina", Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  margin: 0;
+  margin-left: 50%;
+  margin-top: 45px;
+  max-width: 40%;
+}
+
+@media screen and (max-width: 1000px) {
+  .play__description {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .play__description {
+    margin: 53px 25px 0;
+    max-width: 100%;
+  }
+}

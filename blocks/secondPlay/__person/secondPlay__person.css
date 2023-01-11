@@ -1,0 +1,9 @@
+.secondPlay__person {
+  padding: 24px 0 0;
+  margin: 0;
+  max-width: 420px;
+}
+
+.secondPlay__person:first-of-type {
+  padding-top: 20px;
+}
